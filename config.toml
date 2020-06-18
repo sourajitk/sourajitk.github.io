@@ -1,0 +1,55 @@
+Title = "Home"
+baseurl = "https://sourajitk.me"
+languageCode = "en-us"
+title = "Sourajit Karmakar"
+theme = "hello-friend-ng"
+
+[params]
+  author = "Sourajit Karmakar"
+  homeSubtitle = "Hey there!"
+  avatarurl = "https://avatars3.githubusercontent.com/u/45220673?s=460&u=50ec2fe8d22ecf0edb860af38d95f1216a0ddbcc&v=4"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  keywords = "homepage, blog programming"
+  contentTypeName = "posts"
+  defaultTheme = "dark"
+  copyright = "Copyrights Reserved. Sourajit Karmakar"
+  [params.logo]
+    logoText     = "prince@Pegasus:# ~"
+    logoHomeLink = "/"
+[languages]
+    [languages.en]
+      subtitle  = ""
+      weight    = 1
+      copyright = 'Sourajit Karmakar'
+[menu]
+  [[menu.main]]
+    name = "contact"
+    weight = 0
+    url = "/contact"
+  [[menu.main]]
+    name = "posts"
+    weight = 4
+    url = "/posts"
+  [[menu.main]]
+    name = "about me"
+    weight = 1
+    url = "/about"
+[[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github fa-2x"
+    url = "https://github.com/sourajitk"
+[[params.social]]
+    name = "Telegram"
+    icon = "fab fa-telegram fa-2x"
+    url = "https://t.me/CompassNeedle"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    url = "https://www.linkedin.com/in/sourajit-karmakar-176a981a9/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    url = "https://twitter.com/sourajitkarmak2"
