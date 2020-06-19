@@ -64,29 +64,29 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ms_loves_linux.png?token=AKZAGQOMMRIBCA54X2SJZJS66YYR2" alt="MS<3Linux"></p>
 <p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.</p>
 <p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enhanced the performance of it.</p>
-<p>In April 2020, WSL 2 was out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft will default completely to WSL 2 instead of WSL 1.</p>
+<p>In April 2020, WSL 2 came out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft has plans to default completely to WSL 2 instead of WSL 1.</p>
 <h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
 <p>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</p>
-<p>First, we need to enable some essential core Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
+<p>First, we need to enable some essential Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/feat%20ctrl.png?token=AKZAGQMMSPPZLEE7PWRFYEC66Y7UA" alt="Featctrl"></p>
-<p>For that head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
+<p>To enable the aforementioned features, head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQOTX54GA7E5VTGBTKK66YYTY" alt="WinFeat"></p>
 <p>^ VM Platform</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat"></p>
 <p>^ Main WSL component</p>
 <p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and ready to be used.</p>
 <h3 id="setting-wsl-2-as-the-default-option">Setting WSL 2 as the default option</h3>
-<p>As of <code>Build 2004</code>, WSL 1 is still the default option. This will change in upcoming updates but for now, we need to tell Windows to default to WSL 2. For that, open up command prompt and type in the following:</p>
+<p>As of <code>Build 2004</code>, WSL 1 is still the default option. This might eventually change with upcoming updates but for now, we need to tell Windows to default to WSL 2. To do that, open up command prompt and type in the following:</p>
 <pre><code>wsl --set-default-version 2
 </code></pre><p>This will ensure that whenever a new WSL Linux distro is installed, it uses WSL 2 by default.</p>
 <h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
 <p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQPODDAEYVY74667NEC66Y7SI" alt="ubuntu"></p>
-<p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, click on Launch. Upon launching Ubuntu, it&rsquo;ll extract the system image and ask for an username and password. After you are done filling those in, type in the following commands to ensure we are ready to use Ubuntu:</p>
+<p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, click on Launch. Upon launching Ubuntu, it&rsquo;ll extract the system image and ask for an username and password. After you are done filling those in, type in the following commands to ensure everything&rsquo;s up-to-date.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt-get update
 
 $ sudo apt-get upgrade
-</code></pre></div><p>This will ensure everything is up-to-date and that&rsquo;s it. You&rsquo;ve now successfully installed Ubuntu 20.04 on your Windows 10 machine using WSL 2. We can confirm that we are running WSL 2 by typing the following in CMD:</p>
+</code></pre></div><p>You&rsquo;ve now successfully installed Ubuntu 20.04 on your Windows 10 machine using WSL 2. We can confirm that we are running WSL 2 by typing the following in CMD:</p>
 <pre><code>wsl --list --verbose 
 </code></pre><p>The output should be:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQJXVPVHQNBQRG7HPOK66ZEHS" alt="wsl2yay"></p>
