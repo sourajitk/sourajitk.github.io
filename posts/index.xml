@@ -72,7 +72,11 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 ^ VM Platform 
 <img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat">
 ^ Main WSL component</p>
-<p>After enabling the above features, you will have to reboot your machine.</p>
+<p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and read to be used.</p>
+<h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
+<p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
+<p><img src="https://github.com/sourajitk/sourajitk.github.io/blob/source/data/wsl%20blog%20assests/ubuntu.png?raw=true" alt="ubuntu"></p>
+<p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, Click on Launch.</p>
 ]]></content>
         </item>
         
