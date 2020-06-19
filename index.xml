@@ -11,5 +11,29 @@
 	<atom:link href="https://sourajitk.me/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Bio</title>
+      <link>https://sourajitk.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sourajitk.me/about/</guid>
+      <description>Hey!
+My name is Sourajit Karmakar.
+I am a 12th grader and I have deep interest in hardware, software, and more importantly &amp;lsquo;Android&amp;rsquo;. I also love photography, cooking and music. I am an aspiring software developer. I&amp;rsquo;m a member and contributer of StatiXOS; a custom AOSP ROM.
+Nice to meet you!
+Sourajit Karmakar</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>https://sourajitk.me/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sourajitk.me/contact/</guid>
+      <description>I&amp;rsquo;m usually available in Telegram and in the StatiXOS Public Chat.
+You can checkout my LinkedIn profile right here
+For anything else, you can [email](mailto: sourajit.karmakar@gmail.com)me.</description>
+    </item>
+    
   </channel>
 </rss>
