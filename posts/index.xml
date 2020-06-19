@@ -66,7 +66,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enchanced the performance of it.</p>
 <p>In April 2020, WSL 2 was out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft will default completely to WSL 2 instead of WSL 1.</p>
 <h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
-<p><code>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</code></p>
+<p>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</p>
 <p>First, we need to enable some essential core Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/feat%20ctrl.png?token=AKZAGQMMSPPZLEE7PWRFYEC66Y7UA" alt="Featctrl"></p>
 <p>For that head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
