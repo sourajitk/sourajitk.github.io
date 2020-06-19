@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sourajitk.github.io/posts/</loc>
+    <lastmod>2020-06-19T00:17:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sourajitk.github.io/</loc>
+    <lastmod>2020-06-19T00:17:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sourajitk.github.io/posts/tip-tricks/</loc>
+    <lastmod>2020-06-19T00:17:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sourajitk.github.io/about/</loc>
   </url>
   
@@ -12,10 +27,6 @@
   
   <url>
     <loc>https://sourajitk.github.io/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sourajitk.github.io/</loc>
   </url>
   
   <url>

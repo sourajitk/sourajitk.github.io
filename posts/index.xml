@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Sourajit Karmakar</title>
+        <link>https://sourajitk.github.io/posts/</link>
+        <description>Recent content in Posts on Sourajit Karmakar</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Sourajit Karmakar</copyright>
+        <lastBuildDate>Fri, 19 Jun 2020 00:17:00 -0400</lastBuildDate>
+        <atom:link href="https://sourajitk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Tips &amp; Tricks on h to properly Shitpost.</title>
+            <link>https://sourajitk.github.io/posts/tip-tricks/</link>
+            <pubDate>Fri, 19 Jun 2020 00:17:00 -0400</pubDate>
+            
+            <guid>https://sourajitk.github.io/posts/tip-tricks/</guid>
+            <description>Placeholder.wav</description>
+            <content type="html"><![CDATA[<p>Placeholder.wav</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
