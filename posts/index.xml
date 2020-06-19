@@ -74,7 +74,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p>^ VM Platform</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat"></p>
 <p>^ Main WSL component</p>
-<p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and read to be used.</p>
+<p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and ready to be used.</p>
 <h3 id="setting-wsl-2-as-the-default-option">Setting WSL 2 as the default option</h3>
 <p>As of <code>Build 2004</code>, WSL 1 is still the default option. This will change in upcoming updates but for now, we need to tell Windows to default to WSL 2. For that, open up command prompt and type in the following:</p>
 <pre><code>wsl --set-default-version 2
