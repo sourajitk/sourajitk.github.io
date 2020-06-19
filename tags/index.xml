@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sourajit Karmakar</title>
-    <link>https://sourajitk.me/tags/</link>
+    <link>https://sourajitk.github.io/tags/</link>
     <description>Recent content in Tags on Sourajit Karmakar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sourajit Karmakar</copyright>
     
-	<atom:link href="https://sourajitk.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sourajitk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
