@@ -53,7 +53,7 @@ int main<span style="color:#f92672">()</span> <span style="color:#f92672">{</spa
         </item>
         
         <item>
-            <title>How to setup WSL 2 on Windows 10</title>
+            <title>How to setup WSL on Windows 10</title>
             <link>https://sourajitk.github.io/posts/wsl-2-how-to/</link>
             <pubDate>Fri, 19 Jun 2020 09:10:43 -0500</pubDate>
             
@@ -66,8 +66,9 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enchanced the performance of it.</p>
 <p>In April 2020, WSL 2 was out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft will default completely to WSL 2 instead of WSL 1.</p>
 <h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
+<p><code>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</code></p>
 <p>First, we need to enable some essential core Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on. For that head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
-<p><img src="https://github.com/sourajitk/sourajitk.github.io/blob/source/data/wsl%20blog%20assests/feat%20ctrl.png?raw=true" alt="Featctrl"></p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/feat%20ctrl.png?token=AKZAGQMMSPPZLEE7PWRFYEC66Y7UA" alt="Featctrl"></p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQOTX54GA7E5VTGBTKK66YYTY" alt="WinFeat"> 
 ^ VM Platform 
 <img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat">
@@ -75,7 +76,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and read to be used.</p>
 <h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
 <p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
-<p><img src="https://github.com/sourajitk/sourajitk.github.io/blob/source/data/wsl%20blog%20assests/ubuntu.png?raw=true" alt="ubuntu"></p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQPODDAEYVY74667NEC66Y7SI" alt="ubuntu"></p>
 <p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, Click on Launch.</p>
 ]]></content>
         </item>
