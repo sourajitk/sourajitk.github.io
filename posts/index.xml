@@ -111,7 +111,7 @@ $ sudo apt-get upgrade
 kernel = C:\\Users\\Your User Name\\kernel
 </code></pre><p>Save the file and exit your notepad.</p>
 <ol start="4">
-<li>Now it&rsquo;s time to fire up Ubuntu again. To do that, just open <code>Ubuntu</code> from the start menu again and run:</li>
+<li>Now it&rsquo;s time to fire up Ubuntu again. To do that, just open <code>Ubuntu</code> from the start menu and run:</li>
 </ol>
 <pre><code>$ cat /proc/version
 </code></pre><p>If it worked the output would be:</p>
