@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sourajit Karmakar</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 10:24:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 10:24:00 -0500</lastBuildDate>
     
 	<atom:link href="https://sourajitk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Hello World!</title>
       <link>https://sourajitk.github.io/posts/hello-world/</link>
-      <pubDate>Fri, 19 Jun 2020 10:24:00 -0400</pubDate>
+      <pubDate>Fri, 19 Jun 2020 10:24:00 -0500</pubDate>
       
       <guid>https://sourajitk.github.io/posts/hello-world/</guid>
       <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function of the Hello World program is that, it&amp;rsquo;s used to check if the program execution environment for the language is setup right or not.
@@ -45,7 +45,7 @@ Sourajit Karmakar</description>
     </item>
     
     <item>
-      <title>Contact Me 😁</title>
+      <title>Contact Me</title>
       <link>https://sourajitk.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
