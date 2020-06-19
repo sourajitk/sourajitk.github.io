@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10. Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration." />
+<meta name="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration." />
 <meta name="keywords" content="homepage, blog programming" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -33,17 +34,19 @@
 
 
 <meta itemprop="name" content="How to setup WSL 2 on Windows 10 2004 or later with Ubuntu 20.04">
-<meta itemprop="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10. Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.">
+<meta itemprop="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.">
 <meta itemprop="datePublished" content="2020-06-19T09:10:43-05:00" />
 <meta itemprop="dateModified" content="2020-06-19T09:10:43-05:00" />
-<meta itemprop="wordCount" content="195">
+<meta itemprop="wordCount" content="218">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to setup WSL 2 on Windows 10 2004 or later with Ubuntu 20.04"/>
-<meta name="twitter:description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10. Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration."/>
+<meta name="twitter:description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration."/>
 
 
 
@@ -112,7 +115,7 @@
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>One minute
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
 
             
 
@@ -129,10 +132,16 @@
             <div class="post-content">
                 <h3 id="what-is-wsl">What is WSL?</h3>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ms_loves_linux.png?token=AKZAGQOMMRIBCA54X2SJZJS66YYR2" alt="MS<3Linux"></p>
-<p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10. Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enchanced the performance of it. In April 2020, WSL 2 was out of beta and was available to be used in Windows 10 Aprl Update <code>Build 2004</code>. In the future, Microsoft will default completely to WSL 2 instead of WSL 1.</p>
+<p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.</p>
+<p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enchanced the performance of it.</p>
+<p>In April 2020, WSL 2 was out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft will default completely to WSL 2 instead of WSL 1.</p>
 <h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
-<p>First, we need to enable some essential core Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
-<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQOTX54GA7E5VTGBTKK66YYTY" alt="WinFeat"> <img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat"></p>
+<p>First, we need to enable some essential core Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on. For that head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
+<p><img src="" alt="Featctrl"></p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQOTX54GA7E5VTGBTKK66YYTY" alt="WinFeat"> 
+^ VM Platform 
+<img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQJR3MGQFU7TPSEMWTK66YYS6" alt="WSLFeat">
+^ Main WSL component</p>
 <p>After enabling the above features, you will have to reboot your machine.</p>
 
             </div>
@@ -142,7 +151,7 @@
 
         <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>195 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>218 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-19 10:10 -0400</p>
         </div>
@@ -164,6 +173,13 @@
                         </span>
                     
 
+                    
+                        <span class="button next">
+                            <a href="https://sourajitk.github.io/posts/tips-and-tricks/">
+                                <span class="button__text">Tips &amp; Tricks on how to properly Shitpost.</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
                     
                 </div>
             </div>
