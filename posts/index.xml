@@ -94,12 +94,11 @@ $ sudo apt-get upgrade
 <h3 id="extras">Extras</h3>
 <p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard </code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
-<li>
-<p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory <code>C:\Users\YourUserName\</code> here I saved it as <code>kernel</code> you can name it anything you want to (or leave as it is).</p>
-</li>
-<li>
-<p>Now we would wanna shutdown WSL. To do that open up CMD and type in the following:</p>
-</li>
+<li>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory <code>C:\Users\YourUserName\</code>.</li>
+</ol>
+<p>Here I saved it as <code>kernel</code> you can name it anything you want to (or leave as it is).</p>
+<ol start="2">
+<li>Now we would wanna shutdown WSL. To do that open up CMD and type in the following:</li>
 </ol>
 <p>Note: This will shutdown WSL completely and any unsaved work will be lost.</p>
 <pre><code>wsl --shutdown
@@ -107,7 +106,7 @@ $ sudo apt-get upgrade
 <li>Now we need to create a file with the name <code>.wslconfig</code> in the root of your Users directory. Now open this file using notepad and add the following:</li>
 </ol>
 <pre><code>[wsl2]
-kernel = C:\\Users\\Your User Name\\Whatever you named your kernel (`bzImage` if you did not rename it)
+kernel = C:\\Users\\Your User Name\\kernel
 </code></pre><p>Save the file and exit your notepad.</p>
 <ol start="4">
 <li>Now it&rsquo;s time to fire up Ubuntu again. To do that, just open <code>Ubuntu</code> from the start menu again and run:</li>
