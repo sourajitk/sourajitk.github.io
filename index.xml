@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sourajit Karmakar</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 10:24:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 09:10:43 -0500</lastBuildDate>
     
 	<atom:link href="https://sourajitk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://sourajitk.github.io/posts/hello-world/</link>
-      <pubDate>Fri, 19 Jun 2020 10:24:00 -0500</pubDate>
-      
-      <guid>https://sourajitk.github.io/posts/hello-world/</guid>
-      <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.
-Here, I&amp;rsquo;m going to show you how the code for &amp;quot;Hello World&amp;quot; differs between various different langauges.</description>
-    </item>
     
     <item>
       <title>How to setup WSL on Windows 10</title>
@@ -30,6 +20,16 @@ Here, I&amp;rsquo;m going to show you how the code for &amp;quot;Hello World&amp
       <guid>https://sourajitk.github.io/posts/wsl-2-how-to/</guid>
       <description>What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
 Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://sourajitk.github.io/posts/hello-world/</link>
+      <pubDate>Fri, 19 Jun 2020 00:24:00 -0500</pubDate>
+      
+      <guid>https://sourajitk.github.io/posts/hello-world/</guid>
+      <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.
+Here, I&amp;rsquo;m going to show you how the code for &amp;quot;Hello World&amp;quot; differs between various different langauges.</description>
     </item>
     
     <item>
