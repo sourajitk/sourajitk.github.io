@@ -92,7 +92,7 @@ $ sudo apt-get upgrade
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQJXVPVHQNBQRG7HPOK66ZEHS" alt="wsl2yay"></p>
 <p>Check out the <code>Extras</code> for some more cool stuff!</p>
 <h3 id="extras">Extras</h3>
-<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard </code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
+<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
 <li>
 <p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory <code>C:\Users\YourUserName\</code>.</p>
