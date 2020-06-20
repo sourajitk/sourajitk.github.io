@@ -70,8 +70,8 @@ kernel = C:\\Users\\Your User Name\\kernel
 <ol start="4">
 <li>Now it&rsquo;s time to fire up Ubuntu again. To do that, just open <code>Ubuntu</code> from the start menu and run:</li>
 </ol>
-<pre><code>$ cat /proc/version
-</code></pre><p>If it worked the output would be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat /proc/version
+</code></pre></div><p>If it worked the output would be:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/prince<span style="color:#f92672">(</span>source<span style="color:#f92672">)</span> » cat /proc/version
 Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">(</span>nathan@Ryzen-9-3900X<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>ClangBuiltLinux clang version 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">)</span>, LLD 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">))</span> <span style="color:#75715e">#1 SMP Thu Jun 18 00:53:16 MST 2020</span>
 </code></pre></div><p>And that is it!</p>
