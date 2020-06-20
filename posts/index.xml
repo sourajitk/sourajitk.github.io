@@ -76,6 +76,8 @@ kernel = C:\\Users\\Your User Name\\kernel
 Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">(</span>nathan@Ryzen-9-3900X<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>ClangBuiltLinux clang version 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">)</span>, LLD 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">))</span> <span style="color:#75715e">#1 SMP Thu Jun 18 00:53:16 MST 2020</span>
 </code></pre></div><p>And that is it!</p>
 <p>A newer and upstreamed kernel would basically keep your OS running more securely and more efficiently.</p>
+<h3 id="my-setup">My Setup</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/homescreen.png?token=AKZAGQNCXXZUVXUE3RSAUXS6623AA" alt="homescreen"></p>
 ]]></content>
         </item>
         
