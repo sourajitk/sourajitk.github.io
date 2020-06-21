@@ -87,10 +87,10 @@ Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">
             <pubDate>Fri, 19 Jun 2020 00:24:00 -0500</pubDate>
             
             <guid>https://sourajitk.github.io/posts/hello-world/</guid>
-            <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.
+            <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. Additionally, another important function that it serves is to check if the program execution environment is setup properly.
 Here, I&amp;rsquo;m going to show you how the code for &amp;quot;Hello World&amp;quot; differs between various different langauges.</description>
             <content type="html"><![CDATA[<h3 id="what-is-hello-world">What is Hello World?</h3>
-<p>Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.</p>
+<p>Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. Additionally, another important function that it serves is to check if the program execution environment is setup properly.</p>
 <p>Here, I&rsquo;m going to show you how the code for <code>&quot;Hello World&quot;</code> differs between various different langauges.</p>
 <h3 id="1-python">1. Python</h3>
 <p>Python is an interpreted, high-level, general-purpose programming language created by Guido van Rossum. It&rsquo;s very simple and easy to learn. It&rsquo;s one of the most popular language amongst programmers.</p>
