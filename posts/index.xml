@@ -52,6 +52,30 @@ As Windows Terminal is open-source, people can do anything they want with the so
 <p>^ One Half Dark</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme3.png?token=AKZAGQIEAVSOBKDRVNEECVS7AFN52" alt="favtheme3"></p>
 <p>^ Vintage</p>
+<h3 id="fonts">Fonts</h3>
+<p>Windows Terminal supports any monospaced fonts. We can also set a default font size. You can also change the font size on the fly by using <code>Ctrl + your mouse scroll wheel</code> or <code>Ctrl + ’+’ and ‘-‘</code>.</p>
+<p>Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
+                <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
+</code></pre></div><p>It should look like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">            <span style="color:#f92672">{</span>
+                <span style="color:#e6db74">&#34;guid&#34;</span>: <span style="color:#e6db74">&#34;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&#34;</span>,
+                <span style="color:#e6db74">&#34;hidden&#34;</span>: false,
+                <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Ubuntu-20.04&#34;</span>,
+                <span style="color:#e6db74">&#34;colorScheme&#34;</span>: <span style="color:#e6db74">&#34;One Half Dark&#34;</span>,
+                <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
+                <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
+                <span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/ubuntu.png&#34;</span>,
+                <span style="color:#e6db74">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;Windows.Terminal.Wsl&#34;</span>
+            <span style="color:#f92672">}</span>,
+</code></pre></div><h3 id="adding-icons-for-your-terminal-linuxhttpsrawgithubusercontentcomsourajitksourajitkgithubiosourcedatawindows20terminal20assestsubuntupngtokenakzagqinpgqmltyx37w5fjs7ahvbu--statixhttpsrawgithubusercontentcomsourajitksourajitkgithubiosourcedatawindows20terminal20assestsstatixpngtokenakzagqmlxfrg6g72smtyev27ahvam">Adding icons for your terminal <img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/ubuntu.png?token=AKZAGQINPGQMLTYX37W5FJS7AHVBU" alt="linux">  <img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/statix.png?token=AKZAGQMLXFRG6G72SMTYEV27AHVAM" alt="statix"></h3>
+<p>First, we need to navigate to this directory <code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code>.</p>
+<p>After you paste this in your Explorer address bar, you should now be in an empty folder.</p>
+<p>Here you can copy your logo in <code>.PNG</code> format. Make sure you download or make a low-res copy of your copy because if it’s too high res, it might end up having an over sharpened look.</p>
+<p>To define your logo, add the following to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/&lt;your image name.png&gt; &#34;</span>
+</code></pre></div><p>Here’s how it should look like:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu_sample.png?token=AKZAGQJRG5R6JAUXKJYFRU27AHVAE" alt="menu_sample"></p>
 ]]></content>
         </item>
         
