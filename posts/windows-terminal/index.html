@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
+As Windows Terminal is open-source, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers." />
+<meta name="keywords" content="homepage, blog programming" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://sourajitk.github.io/posts/windows-terminal/" />
+
+
+    <title>
+        
+            Customizing the Windows Terminal  :: Sourajit Karmakar 
+        
+    </title>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" crossorigin="anonymous" />
+
+
+
+
+<link rel="stylesheet" href="/main.dede02da9537a98158079c023e83573e18127834838ef08172acce888341a797.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Customizing the Windows Terminal ">
+<meta itemprop="description" content="What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
+As Windows Terminal is open-source, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers.">
+<meta itemprop="datePublished" content="2020-06-26T10:24:00-05:00" />
+<meta itemprop="dateModified" content="2020-06-26T10:24:00-05:00" />
+<meta itemprop="wordCount" content="402">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Customizing the Windows Terminal "/>
+<meta name="twitter:description" content="What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
+As Windows Terminal is open-source, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers."/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-06-26 10:24:00 -0500 -0500" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">prince@Pegasus:# ~</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://sourajitk.github.io/about">about me</a></li><li><a href="https://sourajitk.github.io/posts">posts</a></li><li><a href="https://sourajitk.github.io/contact">contact</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://sourajitk.github.io/posts/windows-terminal/">Customizing the Windows Terminal</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <h3 id="what-is-windows-terminal">What is Windows terminal?</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/terminalpreview.png?token=AKZAGQMNTADJOMBJBZHGAJK7AFM6E" alt="TerminalPreview"></p>
+<p>Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">WSL</a> and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.</p>
+<p>As Windows Terminal is <code>open-source</code>, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers.</p>
+<p>What makes Windows Terminal stand out is that it uses a GPU accelerated DirectWrite/DirectX-based text rendering engine. This new text rendering engine will display text characters, glyphs, and symbols present within fonts on your PC, including CJK ideograms, emoji, powerline symbols, icons, programming ligatures, etc. This engine also renders text much faster than the previous Console’s GDI engine!</p>
+<p>In this guide, we are going to be focusing on the Windows Store version of Windows Terminal. This process involves us modifying the JSON config file that contains all the settings for the Windows Terminal.</p>
+<h3 id="downloading-windows-terminal-from-the-microsoft-store">Downloading Windows Terminal from the Microsoft Store</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/wtstore.png?token=AKZAGQISAW46SEFFG7VF4VC7AFM7A" alt="WTStore"></p>
+<p>You can find the link to the app <a href="https://www.microsoft.com/en-us/p/windows-terminal/">here</a>.</p>
+<p>Press on launch after it has been installed.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/intialscreen.png?token=AKZAGQPVJG525KUKH222SNC7AFM4Q" alt="Initialscreen"></p>
+<h3 id="opening-the-json-config-file">Opening the JSON config file</h3>
+<p>First, we need to open up the menu and then press on <code>Settings</code>. Alternatively, you can use <code>Ctrl+,</code> as well for the same.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu.png?token=AKZAGQM54JUSFFU4ITC4HRK7AFM52" alt="menu"></p>
+<p>As you click on the <code>Settings</code> option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install Visual Studio Code as it makes editing the JSON much easier.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/json-file.png?token=AKZAGQN7W5QEBBAOWZ6BM5S7AFM5A" alt="json-file"></p>
+<p>Assuming you’ve already installed Visual Studio Code and have opened the JSON file, let’s start customizing!</p>
+<h3 id="adding-some-basic-functionality">Adding some basic functionality</h3>
+<p>Before we proceed, you might want to set the <code>”copySelect”</code> value to <code>true</code> as it’s very useful.</p>
+<h3 id="themes">Themes</h3>
+<p>There are 9 including themes. To change your theme, we can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To make changes to your JSON, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">            <span style="color:#f92672">{</span>
+                <span style="color:#e6db74">&#34;guid&#34;</span>: <span style="color:#e6db74">&#34;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&#34;</span>,
+                <span style="color:#e6db74">&#34;hidden&#34;</span>: false,
+                <span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Ubuntu-20.04&#34;</span>,
+                <span style="color:#e6db74">&#34;colorScheme&#34;</span>: <span style="color:#e6db74">&#34;Solarized Dark&#34;</span>,
+                <span style="color:#e6db74">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;Windows.Terminal.Wsl&#34;</span>
+            <span style="color:#f92672">}</span>,
+</code></pre></div><p>And should look something like this:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme2.png?token=AKZAGQNTYKJSU6YNWTKM7XK7AFM2K" alt="favtheme2"></p>
+<p>Other themes that I like are previewed here:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme1.png?token=AKZAGQNH7AKHFNX5IYQWLRK7AFMY2" alt="favtheme1"></p>
+<p>^</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme3.png?token=AKZAGQOTOKA7YTGKAVOUMPC7AFM2W" alt="favtheme3"></p>
+<p>^</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>402 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-26 11:24 -0400</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">
+                                <span class="button__text">How to setup WSL on Windows 10</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span>Sourajit Karmakar</span>
+            <span> <a href="https://sourajitk.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
