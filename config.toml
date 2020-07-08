@@ -1,12 +1,11 @@
-Title = "Home"
-baseurl = "https://sourajitk.me"
+Title = "Sourajit Karmakar"
+baseurl = "https://sourajitk.github.io"
 languageCode = "en-us"
-title = "Sourajit Karmakar"
+title = "Home"
 theme = "hello-friend-ng"
 
 [params]
   author = "Sourajit Karmakar"
-  homeSubtitle = "Hey there!"
   avatarurl = "https://avatars3.githubusercontent.com/u/45220673?s=460&u=50ec2fe8d22ecf0edb860af38d95f1216a0ddbcc&v=4"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -53,3 +52,7 @@ theme = "hello-friend-ng"
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
     url = "https://twitter.com/sourajitkarmak2"
+[[params.social]]
+    name = "Spotify"
+    icon = "fab fa-spotify fa-2x"
+    url = "https://open.spotify.com/playlist/22dCmS2Zi13MK8oRScgdW4?si=1pXd_WDoSFy2hQ7UONtl3w"
