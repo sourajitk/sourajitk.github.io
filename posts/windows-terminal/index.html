@@ -38,7 +38,7 @@ As Windows Terminal is open-source, people can do anything they want with the so
 As Windows Terminal is open-source, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers.">
 <meta itemprop="datePublished" content="2020-06-26T10:24:00-05:00" />
 <meta itemprop="dateModified" content="2020-06-26T10:24:00-05:00" />
-<meta itemprop="wordCount" content="588">
+<meta itemprop="wordCount" content="586">
 
 
 
@@ -144,13 +144,13 @@ As Windows Terminal is open-source, people can do anything they want with the so
 <h3 id="opening-the-json-config-file">Opening the JSON config file</h3>
 <p>First, we need to open up the menu and then press on <code>Settings</code>. Alternatively, you can use <code>Ctrl+,</code> as well for the same.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu.png?token=AKZAGQM54JUSFFU4ITC4HRK7AFM52" alt="menu"></p>
-<p>As you click on the <code>Settings</code> option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install Visual Studio Code as it makes editing the JSON much easier.</p>
+<p>As you click on the <code>Settings</code> option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install [https://code.visualstudio.com/download](Visual Studio Code) as it makes editing the JSON much easier.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/json-file.png?token=AKZAGQN7W5QEBBAOWZ6BM5S7AFM5A" alt="json-file"></p>
 <p>Assuming you’ve already installed Visual Studio Code and have opened the JSON file, let’s start customizing!</p>
-<h3 id="adding-some-basic-functionality">Adding some basic functionality</h3>
+<h3 id="quick-tip">Quick Tip</h3>
 <p>Before we proceed, you might want to set the <code>&quot;copySelect&quot;</code> value to <code>true</code> as it’s very useful.</p>
 <h3 id="themes">Themes</h3>
-<p>There are 9 including themes. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To make changes to your JSON, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
+<p>There are 9 included themes. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">            <span style="color:#f92672">{</span>
                 <span style="color:#e6db74">&#34;guid&#34;</span>: <span style="color:#e6db74">&#34;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&#34;</span>,
                 <span style="color:#e6db74">&#34;hidden&#34;</span>: false,
@@ -197,7 +197,7 @@ As Windows Terminal is open-source, people can do anything they want with the so
 
         <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>588 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>586 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-26 11:24 -0400</p>
         </div>
