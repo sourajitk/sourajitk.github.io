@@ -37,7 +37,7 @@ As Windows Terminal is open-source, people can do anything they want with the so
 <h3 id="quick-tip">Quick Tip</h3>
 <p>Before we proceed, you might want to set the <code>&quot;copySelect&quot;</code> value to <code>true</code> as it’s very useful.</p>
 <h3 id="themes">Themes</h3>
-<p>There are 9 included themes. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
+<p>There are 9 included themes that Windows Terminal ships with. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">            <span style="color:#f92672">{</span>
                 <span style="color:#e6db74">&#34;guid&#34;</span>: <span style="color:#e6db74">&#34;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&#34;</span>,
                 <span style="color:#e6db74">&#34;hidden&#34;</span>: false,
