@@ -19,7 +19,7 @@
       
       <guid>https://sourajitk.github.io/posts/windows-terminal/</guid>
       <description>What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
-As Windows Terminal is open-source, people can do anything they want with the source to customize it. And due to this open-source nature, Windows Terminal became popular amongst all kinds of users and even developers.</description>
+Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!</description>
     </item>
     
     <item>
