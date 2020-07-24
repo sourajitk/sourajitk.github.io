@@ -69,14 +69,15 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
                 <span style="color:#e6db74">&#34;source&#34;</span>: <span style="color:#e6db74">&#34;Windows.Terminal.Wsl&#34;</span>
             <span style="color:#f92672">}</span>,
 </code></pre></div><h3 id="adding-icons-to-the-menu">Adding icons to the menu</h3>
-<p>First, you need to navigate to this directory: 
-<code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code>.</p>
+<p>Paste the following path in the Explorer address bar:</p>
+<p><code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code></p>
 <p>You should now be in an empty folder.</p>
 <p>Here you can copy your logo in <code>.PNG</code> format. Make sure you download or make a low-res copy of your copy because if it’s too high res, it might end up having an over-sharpened look.</p>
 <p>To define your logo, add the following to your profile:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/&lt;your image name.png&gt; &#34;</span>
 </code></pre></div><p>Here’s how it should look like:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu_sample.png?token=AKZAGQJRG5R6JAUXKJYFRU27AHVAE" alt="menu_sample"></p>
+<p>This guide has been continued here. <a href="https://sourajitk.github.io/posts/windows-terminal-2/">Part 2</a></p>
 ]]></content>
         </item>
         
