@@ -38,7 +38,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 Another cool thing about Windows Terminal is that it&rsquo;s open-source. What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!">
 <meta itemprop="datePublished" content="2020-06-26T10:24:00-05:00" />
 <meta itemprop="dateModified" content="2020-06-26T10:24:00-05:00" />
-<meta itemprop="wordCount" content="590">
+<meta itemprop="wordCount" content="580">
 
 
 
@@ -142,15 +142,15 @@ Another cool thing about Windows Terminal is that it&rsquo;s open-source. What t
 <p>Press on launch after it has been installed.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/intialscreen.png?token=AKZAGQPVJG525KUKH222SNC7AFM4Q" alt="Initialscreen"></p>
 <h3 id="opening-the-json-config-file">Opening the JSON config file</h3>
-<p>First, we need to open up the menu and then press on <code>Settings</code>. Alternatively, you can use <code>Ctrl+,</code> as well for the same.</p>
+<p>First, we need to open up the menu and then press on Settings. Alternatively, you can use <code>Ctrl+,</code> as well for the same.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu.png?token=AKZAGQM54JUSFFU4ITC4HRK7AFM52" alt="menu"></p>
-<p>As you click on the <code>Settings</code> option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install <a href="https://code.visualstudio.com/download">Visual Studio Code</a> as it makes editing the JSON much easier.</p>
+<p>As you click on the Settings option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install <a href="https://code.visualstudio.com/download">Visual Studio Code</a> as it makes editing the JSON much easier.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/json-file.png?token=AKZAGQN7W5QEBBAOWZ6BM5S7AFM5A" alt="json-file"></p>
 <p>Assuming you’ve already installed Visual Studio Code and have opened the JSON file, let’s start customizing!</p>
 <h3 id="quick-tip">Quick Tip</h3>
 <p>Before we proceed, you might want to set the <code>&quot;copySelect&quot;</code> value to <code>true</code> as it’s very useful.</p>
 <h3 id="themes">Themes</h3>
-<p>There are 9 included themes that Windows Terminal ships with. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the <code>Solarized Dark</code> theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
+<p>There are 9 included themes that Windows Terminal ships with. We can set different themes for different profiles. Here, I’ve customized my WSL profile to use the Solarized Dark theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. The resultant modifications would look something like:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">            <span style="color:#f92672">{</span>
                 <span style="color:#e6db74">&#34;guid&#34;</span>: <span style="color:#e6db74">&#34;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&#34;</span>,
                 <span style="color:#e6db74">&#34;hidden&#34;</span>: false,
@@ -162,11 +162,13 @@ Another cool thing about Windows Terminal is that it&rsquo;s open-source. What t
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme2.png?token=AKZAGQNTYKJSU6YNWTKM7XK7AFM2K" alt="favtheme2"></p>
 <p>Other themes that I like are previewed here:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme1.png?token=AKZAGQNH7AKHFNX5IYQWLRK7AFMY2" alt="favtheme1"></p>
-<p>^ One Half Dark</p>
+<pre><code>            One Half Dark
+</code></pre>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme3.png?token=AKZAGQIEAVSOBKDRVNEECVS7AFN52" alt="favtheme3"></p>
-<p>^ Vintage</p>
+<pre><code>            Vintage
+</code></pre>
 <h3 id="fonts">Fonts</h3>
-<p>Windows Terminal supports any monospaced fonts. We can also set a default font size. You can also change the font size on the fly by using <code>Ctrl + your mouse scroll wheel</code> or <code>Ctrl + ’+’ and ‘-‘</code>.</p>
+<p>Windows Terminal supports any monospaced fonts. We can also set a default font size. You can also change the font size on the fly by using Ctrl &lsquo;+&rsquo; or ‘-‘.</p>
 <p>Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
                 <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
@@ -197,7 +199,7 @@ Another cool thing about Windows Terminal is that it&rsquo;s open-source. What t
 
         <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>590 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>580 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-26 11:24 -0400</p>
         </div>
