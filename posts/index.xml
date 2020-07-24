@@ -33,7 +33,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu.png?token=AKZAGQM54JUSFFU4ITC4HRK7AFM52" alt="menu"></p>
 <p>As you click on the Settings option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install <a href="https://code.visualstudio.com/download">Visual Studio Code</a> as it makes editing the JSON much easier.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/json-file.png?token=AKZAGQN7W5QEBBAOWZ6BM5S7AFM5A" alt="json-file"></p>
-<p>Assuming you’ve already installed Visual Studio Code and have opened the JSON file, let’s start customizing!</p>
+<p>Assuming you’ve already installed Visual Studio Code and opened the JSON file, let’s start customizing!</p>
 <h3 id="quick-tip">Quick Tip</h3>
 <p>Before we proceed, you might want to set the <code>&quot;copySelect&quot;</code> value to <code>true</code> as it’s very useful.</p>
 <h3 id="themes">Themes</h3>
