@@ -6,13 +6,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Sourajit Karmakar</copyright>
-        <lastBuildDate>Fri, 26 Jun 2020 10:24:00 -0500</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2020 10:24:00 -0500</lastBuildDate>
         <atom:link href="https://sourajitk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Customizing the Windows Terminal</title>
+            <title>Custmizing the Windows Terminal</title>
             <link>https://sourajitk.github.io/posts/windows-terminal/</link>
-            <pubDate>Fri, 26 Jun 2020 10:24:00 -0500</pubDate>
+            <pubDate>Thu, 23 Jul 2020 10:24:00 -0500</pubDate>
             
             <guid>https://sourajitk.github.io/posts/windows-terminal/</guid>
             <description>What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
