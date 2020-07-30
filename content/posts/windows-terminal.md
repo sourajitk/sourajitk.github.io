@@ -42,15 +42,11 @@ Before we proceed, you might want to set the ```"copySelect"``` value to ```true
 
 ### Themes
 
-There are 9 included themes that Windows Terminal ships with. One can set different themes for different profiles. Here, I’ve customized my WSL profile to use the Solarized Dark theme. To start using a different theme, locate the profile section in the ```settings.json``` and add ```”colorScheme”``` property to the profile you want to theme. The resultant modifications would look something like:
+There are 9 included themes that Windows Terminal ships with. One can set different themes for different profiles. Here, I’ve customized my WSL profile to use the Solarized Dark theme. To start using a different theme, locate the profile section in the ```settings.json``` and add ```”colorScheme”``` property to the profile you want to theme. Add this line to your profile:
 
 ```bash
             {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
                 "colorScheme": "Solarized Dark",
-                "source": "Windows.Terminal.Wsl"
             },
 ```
 And should look something like this:
@@ -76,20 +72,6 @@ Although you can get away with a non-monospaced font, I cannot guarantee you tha
                 "fontFace": "Consolas",
                 "fontSize": 11,
 ```
-It should look like this:
-
-```bash
-            {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "colorScheme": "One Half Dark",
-                "fontFace": "Consolas",
-                "fontSize": 11,
-                "icon": "ms-appdata:///roaming/ubuntu.png",
-                "source": "Windows.Terminal.Wsl"
-            },
-```
 
 ### Adding icons to the menu
 
@@ -104,7 +86,7 @@ Here you can copy your logo in ```.PNG``` format. Make sure you download or make
 To define your logo, add the following to your profile:
 
 ```bash
-"icon": "ms-appdata:///roaming/<your image name.png> "
+"icon": "ms-appdata:///roaming/<your image name.png>"
 ```
 Here’s how it should look like:
 
@@ -117,8 +99,12 @@ Windows Terminal starts at ```C:\Users\<User name>\``` by default but this can b
 By adding the following line you can change the starting directory to virtually anything you want.
 
 ```bash
-                "startingDirectory" : "<The path you desire",
+                "startingDirectory" : "<The path you desire>",
 ```
+
+### Changing default shell
+
+Windows Terminal starts with Powershell by default but this can be changed to anything as long as you have the ID for that app. At the very beginning of the file you should see something like ```"defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",``` here, just replace the ID with something else and Windows Terminal should start with what with selected.
 
 ### Final words
 

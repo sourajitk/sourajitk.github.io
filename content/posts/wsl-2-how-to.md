@@ -23,11 +23,11 @@ To enable the aforementioned features, head to the start menu and type `Windows 
 
 ![WinFeat](https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQPLSMCVM4ZO665GT6C7AFGVO) 
 
-^ VM Platform 
+VM Platform 
 
 ![WSLFeat](https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQIJJ77PHE65J5C42NS7AFGWW)
 
-^ Main WSL component 
+Main WSL component 
 
 
 After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and ready to be used.
@@ -40,8 +40,10 @@ wsl --set-default-version 2
 ```
 This will ensure that whenever a new WSL Linux distro is installed, it uses WSL 2 by default.
 
-### Downloading Ubuntu 20.04 for WSL from the Windows Store
+### Troubleshooting: Error 0x1bc
+If you encounter the above error, download and install this WSL 2 update [package](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) from Microsoft. After you have installed the update, try the command to set WSL 2 as default again.
 
+### Downloading Ubuntu 20.04 for WSL from the Windows Store
 Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.
 
 ![ubuntu](https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQP4AL7FDWWJEW64LKS7AFGUI)
@@ -65,7 +67,6 @@ The output should be:
 Check out the `Extras` for some more cool stuff!
 
 ### Extras
-
 The default kernel that WSL 2 ships with is `4.19.104-microsoft-standard` and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using [Nathan Chancellor's](https://github.com/nathanchance) mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.
 
 1. Download the latest kernel release from his WSL 2 kernel git [here](https://github.com/nathanchance/WSL2-Linux-Kernel/releases). Make sure you have this in the root of your `Users` directory as in `C:\Users\YourUserName\`. 
@@ -106,5 +107,4 @@ And that is it!
 A newer and upstreamed kernel would basically keep your OS running more securely and more efficiently.
 
 ### My Setup
-
 ![homescreen](https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/homescreen.png?token=AKZAGQLTWSMBOGSLTF6E2A27AFGRU)
