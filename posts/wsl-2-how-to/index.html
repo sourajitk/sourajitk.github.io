@@ -21,12 +21,12 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous" />
 
 
 
 
-<link rel="stylesheet" href="/main.dede02da9537a98158079c023e83573e18127834838ef08172acce888341a797.css">
+<link rel="stylesheet" href="/main.d1ea4af8fd04fb24a4f8b882ea54bd04eb245427ca4baf527c81a5dab071410b.css">
 
 
 
@@ -38,7 +38,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.">
 <meta itemprop="datePublished" content="2020-06-19T09:10:43-05:00" />
 <meta itemprop="dateModified" content="2020-06-19T09:10:43-05:00" />
-<meta itemprop="wordCount" content="714">
+<meta itemprop="wordCount" content="749">
 
 
 
@@ -112,25 +112,29 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 
             <div class="content">
                 
-    <main class="post">
+  <main class="post">
 
-        <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        4 minutes
 
-            
+        
+      </p>
+    </div>
 
-            </p>
-        </div>
+    <article>
+      <h1 class="post-title">
+        <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">How to setup WSL on Windows 10</a>
+      </h1>
 
-        <article>
-            <h1 class="post-title">
-                <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">How to setup WSL on Windows 10</a>
-            </h1>
+      
 
-            
-
-            <div class="post-content">
-                <h3 id="what-is-wsl">What is WSL?</h3>
+      <div class="post-content">
+        <h3 id="what-is-wsl">What is WSL?</h3>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ms_loves_linux.png?token=AKZAGQJX3TSACHFBWW6MII27AFGS4" alt="MS<3Linux"></p>
 <p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.</p>
 <p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enhanced the performance of it.</p>
@@ -149,6 +153,8 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 <p>As of <code>Build 2004</code>, WSL 1 is still the default option. This might eventually change with upcoming updates but for now, we need to tell Windows to default to WSL 2. To do that, open up command prompt and type in the following:</p>
 <pre><code>wsl --set-default-version 2
 </code></pre><p>This will ensure that whenever a new WSL Linux distro is installed, it uses WSL 2 by default.</p>
+<h3 id="troubleshooting-error-0x1bc">Troubleshooting: Error 0x1bc</h3>
+<p>If you encounter the above error, download and install this WSL 2 update <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">package</a> from Microsoft. After you have installed the update, try the command to set WSL 2 as default again.</p>
 <h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
 <p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQP4AL7FDWWJEW64LKS7AFGUI" alt="ubuntu"></p>
@@ -192,47 +198,68 @@ Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">
 <h3 id="my-setup">My Setup</h3>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/homescreen.png?token=AKZAGQLTWSMBOGSLTF6E2A27AFGRU" alt="homescreen"></p>
 
-            </div>
-        </article>
+      </div>
+    </article>
 
-        <hr />
+    <hr />
 
-        <div class="post-info">
+    <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>714 Words</p>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        749 Words
+      </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>19-06-2020 10:10 -0400</p>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-06-19 10:10 -0400
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
         </div>
 
-        
-            <div class="pagination">
-                <div class="pagination__title">
-                    <span class="pagination__title-h"></span>
-                    <hr />
-                </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="https://sourajitk.github.io/posts/hello-world/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Hello World!</span>
+              </a>
+            </span>
+          
 
-                <div class="pagination__buttons">
-                    
-                        <span class="button previous">
-                            <a href="https://sourajitk.github.io/posts/windows-terminal/">
-                                <span class="button__icon">←</span>
-                                <span class="button__text">Customizing the Windows Terminal</span>
-                            </a>
-                        </span>
-                    
+          
+            <span class="button next">
+              <a href="https://sourajitk.github.io/posts/tips-and-tricks/">
+                <span class="button__text">Tips &amp; Tricks on how to properly Shitpost.</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
 
-                    
-                        <span class="button next">
-                            <a href="https://sourajitk.github.io/posts/hello-world/">
-                                <span class="button__text">Hello World!</span>
-                                <span class="button__icon">→</span>
-                            </a>
-                        </span>
-                    
-                </div>
-            </div>
-        
-    </main>
+
+    
+
+  </main>
 
             </div>
 
@@ -242,7 +269,9 @@ Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">
         <div class="footer__content">
             <span>&copy; 2020</span>
             
-            <span>Sourajit Karmakar</span>
+            
+                <span>Sourajit Karmakar</span>
+            
             <span> <a href="https://sourajitk.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
         </div>
     </div>
