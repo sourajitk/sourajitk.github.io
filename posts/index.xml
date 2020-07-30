@@ -59,7 +59,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 <p>You should now be in an empty folder.</p>
 <p>Here you can copy your logo in <code>.PNG</code> format. Make sure you download or make a low-res copy of your copy because if it’s too high res, it might end up having an over-sharpened look.</p>
 <p>To define your logo, add the following to your profile:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/&lt;your image name.png&gt; &#34;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/&lt;your image name.png&gt;&#34;</span>
 </code></pre></div><p>Here’s how it should look like:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu_sample.png?token=AKZAGQJRG5R6JAUXKJYFRU27AHVAE" alt="menu_sample"></p>
 <h3 id="changing-the-default-starting-directory">Changing the default starting directory</h3>
@@ -67,7 +67,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 <p>By adding the following line you can change the starting directory to virtually anything you want.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;startingDirectory&#34;</span> : <span style="color:#e6db74">&#34;&lt;The path you desire&gt;&#34;</span>,
 </code></pre></div><h3 id="changing-default-shell">Changing default shell</h3>
-<p>Windows Terminal starts with Powershell by default but this can be changed to anything as long as you have the ID for that app. At the very beginning of the file you should see something like <code>bash &quot;defaultProfile&quot;: &quot;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&quot;,</code> here, just replace the ID with something else and Windows Terminal should start with what with selected.</p>
+<p>Windows Terminal starts with Powershell by default but this can be changed to anything as long as you have the ID for that app. At the very beginning of the file you should see something like <code>&quot;defaultProfile&quot;: &quot;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&quot;,</code> here, just replace the ID with something else and Windows Terminal should start with what with selected.</p>
 <h3 id="final-words">Final words</h3>
 <p>There you have it! Some pretty simple yet useful customizations that will help you personalize Windows Terminal.</p>
 ]]></content>
