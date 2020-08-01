@@ -58,7 +58,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 <p>Note: Adjusting the blur using the above method doesn&rsquo;t save the values.</p>
 <p>To hard code a permanent opacity value which by the way can be set on a per-profile basis, add these lines to your profile:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;useAcrylic&#34;</span>: true,
-                <span style="color:#e6db74">&#34;acrylicOpacity&#34;</span>: 0.65,
+                <span style="color:#e6db74">&#34;acrylicOpacity&#34;</span>: &lt;Any float value between 1.0 <span style="color:#f92672">(</span>fully transparent<span style="color:#f92672">)</span> to 0.0 <span style="color:#f92672">(</span>fully opaque<span style="color:#f92672">)</span>&gt;,
 </code></pre></div><h3 id="adding-icons-to-the-menu">Adding icons to the menu</h3>
 <p>Paste the following path in the Explorer address bar:</p>
 <p><code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code></p>
@@ -166,13 +166,11 @@ $ sudo apt-get upgrade
 <h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system</h3>
 <p>There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.</p>
 <ol>
-<li>
-<p>Create a shortcut (perferably, on your desktop you can move the shortcut around later)
-<img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png" alt=""></p>
-</li>
-<li>
-<p>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finsish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home-&gt;<!-- raw HTML omitted --> and you should see your files.</p>
-</li>
+<li>Create a shortcut (perferably, on your desktop you can move the shortcut around later)</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png" alt=""></p>
+<ol start="2">
+<li>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finsish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home-&gt;<!-- raw HTML omitted --> and you should see your files.</li>
 </ol>
 <p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
 <h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
