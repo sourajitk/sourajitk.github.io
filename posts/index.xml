@@ -53,6 +53,12 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 <p>Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
                 <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
+</code></pre></div><h3 id="adding-blur-to-the-terminal-backgorund">Adding blur to the Terminal backgorund</h3>
+<p>Since the Windows Terminal is a UWP (Univeral Windows Platform) app, it supports Windows&rsquo; Fluent Blur which can be enabled on the fly by holding Shift+Ctrl and scrolling up or down which will change be the transparency of the background (which is blurred).</p>
+<p>Note: Adjusting the blur using the above method doesn&rsquo;t save the values.</p>
+<p>To hard code a permanent opacity value which by the way can be set on a per-profile basis, add these lines to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;useAcrylic&#34;</span>: true,
+                <span style="color:#e6db74">&#34;acrylicOpacity&#34;</span>: 0.65,
 </code></pre></div><h3 id="adding-icons-to-the-menu">Adding icons to the menu</h3>
 <p>Paste the following path in the Explorer address bar:</p>
 <p><code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code></p>
@@ -157,7 +163,19 @@ $ sudo apt-get upgrade
 </code></pre><p>The output should be:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQOVYL2XMIVIZ4CPLNK7AFGX4" alt="wsl2yay"></p>
 <p>Check out the <code>Extras</code> for some more cool stuff!</p>
-<h3 id="extras">Extras</h3>
+<h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system</h3>
+<p>There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.</p>
+<ol>
+<li>
+<p>Create a shortcut (perferably, on your desktop you can move the shortcut around later)
+<img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png" alt=""></p>
+</li>
+<li>
+<p>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finsish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home-&gt;<!-- raw HTML omitted --> and you should see your files.</p>
+</li>
+</ol>
+<p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
+<h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
 <p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
 <li>

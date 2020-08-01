@@ -38,7 +38,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
 Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.">
 <meta itemprop="datePublished" content="2020-06-19T09:10:43-05:00" />
 <meta itemprop="dateModified" content="2020-06-19T09:10:43-05:00" />
-<meta itemprop="wordCount" content="747">
+<meta itemprop="wordCount" content="889">
 
 
 
@@ -120,7 +120,7 @@ Things became even more delightful when Microsoft announced back in May 2019 tha
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        4 minutes
+        5 minutes
 
         
       </p>
@@ -167,7 +167,19 @@ $ sudo apt-get upgrade
 </code></pre><p>The output should be:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQOVYL2XMIVIZ4CPLNK7AFGX4" alt="wsl2yay"></p>
 <p>Check out the <code>Extras</code> for some more cool stuff!</p>
-<h3 id="extras">Extras</h3>
+<h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system</h3>
+<p>There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.</p>
+<ol>
+<li>
+<p>Create a shortcut (perferably, on your desktop you can move the shortcut around later)
+<img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png" alt=""></p>
+</li>
+<li>
+<p>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finsish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home-&gt;<!-- raw HTML omitted --> and you should see your files.</p>
+</li>
+</ol>
+<p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
+<h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
 <p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
 <li>
@@ -213,7 +225,7 @@ Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        747 Words
+        889 Words
       </p>
 
       <p>

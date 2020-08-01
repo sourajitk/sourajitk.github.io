@@ -38,7 +38,7 @@ Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. Wh
 Another cool thing about Windows Terminal is that it&rsquo;s open-source. What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!">
 <meta itemprop="datePublished" content="2020-07-23T10:24:00-05:00" />
 <meta itemprop="dateModified" content="2020-07-23T10:24:00-05:00" />
-<meta itemprop="wordCount" content="658">
+<meta itemprop="wordCount" content="747">
 
 
 
@@ -170,6 +170,12 @@ Another cool thing about Windows Terminal is that it&rsquo;s open-source. What t
 <p>Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
                 <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
+</code></pre></div><h3 id="adding-blur-to-the-terminal-backgorund">Adding blur to the Terminal backgorund</h3>
+<p>Since the Windows Terminal is a UWP (Univeral Windows Platform) app, it supports Windows&rsquo; Fluent Blur which can be enabled on the fly by holding Shift+Ctrl and scrolling up or down which will change be the transparency of the background (which is blurred).</p>
+<p>Note: Adjusting the blur using the above method doesn&rsquo;t save the values.</p>
+<p>To hard code a permanent opacity value which by the way can be set on a per-profile basis, add these lines to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">                <span style="color:#e6db74">&#34;useAcrylic&#34;</span>: true,
+                <span style="color:#e6db74">&#34;acrylicOpacity&#34;</span>: 0.65,
 </code></pre></div><h3 id="adding-icons-to-the-menu">Adding icons to the menu</h3>
 <p>Paste the following path in the Explorer address bar:</p>
 <p><code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code></p>
@@ -203,7 +209,7 @@ Another cool thing about Windows Terminal is that it&rsquo;s open-source. What t
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        658 Words
+        747 Words
       </p>
 
       <p>
