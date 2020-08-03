@@ -174,7 +174,7 @@ $ sudo apt-get upgrade
 </ol>
 <p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
 <h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
-<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
+<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and it primarily focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
 <li>
 <p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory as in <code>C:\Users\YourUserName\</code>.</p>
