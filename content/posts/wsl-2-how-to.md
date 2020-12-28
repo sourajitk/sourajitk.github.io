@@ -66,8 +66,19 @@ The output should be:
 
 Check out the `Extras` for some more cool stuff!
 
-### Extras
-The default kernel that WSL 2 ships with is `4.19.104-microsoft-standard` and mostly focuses on stability. However, since this kernel is a real Linux kernel, we can replace it by using a custom more up-to-date one. To do this we would be using [Nathan Chancellor's](https://github.com/nathanchance) mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.
+### Extras: Shortcut to WSL File-system
+There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.
+
+1. Create a shortcut (preferably on your desktop you can move the shortcut around later)
+
+![](https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png)
+
+2. Copy and paste this  ```\\wsl$\``` in the address bar box, press on next and then finish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home -> "your username" and you should see your files. 
+
+Tip: When creating the shortcut, type in the path to your home directory as that's the place where you'll have all your files. Just change the directory to ```\\wsl$\Ubuntu-20.04\home\<username>``` and the shortcut should take you to your Linux home directory.
+
+### Extras: Custom Kernel
+The default kernel that WSL 2 ships with is `4.19.104-microsoft-standard` and it primarily focuses on stability. However, since this is a real Linux kernel, we can replace it by using a more up-to-date custom one. To do this, we would be using [Nathan Chancellor's](https://github.com/nathanchance) mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.
 
 1. Download the latest kernel release from his WSL 2 kernel git [here](https://github.com/nathanchance/WSL2-Linux-Kernel/releases). Make sure you have this in the root of your `Users` directory as in `C:\Users\YourUserName\`. 
 

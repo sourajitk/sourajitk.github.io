@@ -45,9 +45,9 @@ Before we proceed, you might want to set the ```"copySelect"``` value to ```true
 There are 9 included themes that Windows Terminal ships with. One can set different themes for different profiles. Here, I’ve customized my WSL profile to use the Solarized Dark theme. To start using a different theme, locate the profile section in the ```settings.json``` and add ```”colorScheme”``` property to the profile you want to theme. Add this line to your profile:
 
 ```bash
-            {
-                "colorScheme": "Solarized Dark",
-            },
+
+    "colorScheme": "Your preferred theme name",
+
 ```
 And should look something like this:
 
@@ -69,12 +69,22 @@ Windows Terminal supports any monospaced fonts. We can also set a default font s
 Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:
 
 ```bash
-                "fontFace": "Consolas",
-                "fontSize": 11,
+    "fontFace": "Consolas",
+    "fontSize": 11,
+```
+### Adding blur to the Terminal backgorund
+Since the Windows Terminal is a UWP (Univeral Windows Platform) app, it supports Windows' Fluent Blur which can be enabled on the fly by holding Shift+Ctrl and scrolling up or down which will change be the transparency of the background (which is blurred). 
+
+Note: Adjusting the blur using the above method doesn't save the values.
+
+To hard code a permanent opacity value which by the way can be set on a per-profile basis, add these lines to your profile:
+
+```bash
+    "useAcrylic": true,
+    "acrylicOpacity": <Any float value between 1.0 (fully transparent) to 0.0 (fully opaque)>,
 ```
 
 ### Adding icons to the menu
-
 Paste the following path in the Explorer address bar:
 
 ```%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState```
@@ -86,7 +96,7 @@ Here you can copy your logo in ```.PNG``` format. Make sure you download or make
 To define your logo, add the following to your profile:
 
 ```bash
-"icon": "ms-appdata:///roaming/<your image name.png>"
+    "icon": "ms-appdata:///roaming/<your image name.png>"
 ```
 Here’s how it should look like:
 
@@ -99,7 +109,7 @@ Windows Terminal starts at ```C:\Users\<User name>\``` by default but this can b
 By adding the following line you can change the starting directory to virtually anything you want.
 
 ```bash
-                "startingDirectory" : "<The path you desire>",
+    "startingDirectory" : "<The path you desire>",
 ```
 
 ### Changing default shell
