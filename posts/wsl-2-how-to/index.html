@@ -1,122 +1,145 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-  <title>How to setup WSL on Windows 10 | Sourajit Karmakar</title>
-
-  <meta charset="UTF-8">
-  <meta name="language" content="en">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <link rel="preload" href="/fonts/CascadiaCode-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/CascadiaCode-ExtraLight.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/CascadiaCode-Light.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/CascadiaCode-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/CascadiaCode-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-BoldItalic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-MediumItalic.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/GoogleSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-
-  
-  
-
-  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration." />
+<meta name="keywords" content="homepage, blog programming" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://sourajitk.github.io/posts/wsl-2-how-to/" />
 
 
-  
-  
-    
- 
-  
-  
-  
-  
-  
-  
-    
-    <link type="text/css" rel="stylesheet" href="/css/post.min.1a81693a76331eabb25174c1d0281c489086340bbb0058c25dfe1f0fa0e8a6f1.css" integrity="sha256-GoFpOnYzHquyUXTB0CgcSJCGNAu7AFjCXf4fD6DopvE="/>
-  
-    
-    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
-  
-  
-   
-   
-    
+    <title>
+        
+            How to setup WSL on Windows 10 :: Sourajit Karmakar 
+        
+    </title>
 
-<script type="application/ld+json">
-  
-    { 
-      "@context": "http://schema.org", 
-      "@type": "WebSite", 
-      "url": "https:\/\/sourajitk.github.io\/posts\/wsl-2-how-to\/",
-      "name": "How to setup WSL on Windows 10",
-      "author": {
-        "@type": "Person",
-        "name": ""
-      },
-      "description": ""
-    }
-  
-  </script>
-</head>
 
-<body>
-  <div class="burger__container">
-  <div class="burger" aria-controls="navigation" aria-label="Menu">
-    <div class="burger__meat burger__meat--1"></div>
-    <div class="burger__meat burger__meat--2"></div>
-    <div class="burger__meat burger__meat--3"></div>
-  </div>
-</div>
- 
 
-  <nav class="nav" id="navigation">
-  <ul class="nav__list">
-    
-    
-      <li>
-        <a  href="/about">about me</a>
-      </li>
-    
-      <li>
-        <a  href="/posts">posts</a>
-      </li>
-    
-      <li>
-        <a  href="/contact">contact</a>
-      </li>
-    
-  </ul>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous" />
+
+
+
+
+<link rel="stylesheet" href="/main.d1ea4af8fd04fb24a4f8b882ea54bd04eb245427ca4baf527c81a5dab071410b.css">
+
+
+
+
+
+
+<meta itemprop="name" content="How to setup WSL on Windows 10">
+<meta itemprop="description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.">
+<meta itemprop="datePublished" content="2020-06-19T09:10:43-05:00" />
+<meta itemprop="dateModified" content="2020-06-19T09:10:43-05:00" />
+<meta itemprop="wordCount" content="893">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to setup WSL on Windows 10"/>
+<meta name="twitter:description" content="What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration."/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-06-19 09:10:43 -0500 -0500" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">prince@Pegasus:# ~</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://sourajitk.github.io/about">about me</a></li><li><a href="https://sourajitk.github.io/posts">posts</a></li><li><a href="https://sourajitk.github.io/contact">contact</a></li>
+    </ul>
 </nav>
 
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
 
-  <main>
-    
-    
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
 
-    <div class="flex-wrapper">
-      <div class="post__container">
-        <div class="post">
-          <header class="post__header">
-            <h1 id="post__title">How to setup WSL on Windows 10</h1>
-            <time datetime="2020-06-19 09:10:43 -0500 -0500" class="post__date">Jun 19 2020</time> 
-          </header>
-          <article class="post__content">
-              
-<h3 id="what-is-wsl">What is WSL?<a class="anchor" href="#what-is-wsl">#</a></h3>
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        5 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">How to setup WSL on Windows 10</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <h3 id="what-is-wsl">What is WSL?</h3>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ms_loves_linux.png?token=AKZAGQJX3TSACHFBWW6MII27AFGS4" alt="MS<3Linux"></p>
 <p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.</p>
 <p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enhanced the performance of it.</p>
 <p>In April 2020, WSL 2 came out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft has plans to default completely to WSL 2 instead of WSL 1.</p>
-<h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine<a class="anchor" href="#how-to-setup-wsl-on-your-windows-10-powered-machine">#</a></h3>
+<h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
 <p>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</p>
 <p>First, we need to enable some essential Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/feat%20ctrl.png?token=AKZAGQO4SRKTOIYNBP3IFWC7AFGQS" alt="Featctrl"></p>
@@ -126,17 +149,13 @@
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQIJJ77PHE65J5C42NS7AFGWW" alt="WSLFeat"></p>
 <p>Main WSL component</p>
 <p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and ready to be used.</p>
-<h3 id="setting-wsl-2-as-the-default-option">Setting WSL 2 as the default option<a class="anchor" href="#setting-wsl-2-as-the-default-option">#</a></h3>
+<h3 id="setting-wsl-2-as-the-default-option">Setting WSL 2 as the default option</h3>
 <p>As of <code>Build 2004</code>, WSL 1 is still the default option. This might eventually change with upcoming updates but for now, we need to tell Windows to default to WSL 2. To do that, open up command prompt and type in the following:</p>
 <pre><code>wsl --set-default-version 2
 </code></pre><p>This will ensure that whenever a new WSL Linux distro is installed, it uses WSL 2 by default.</p>
-<h3 id="troubleshooting-error-0x1bc">Troubleshooting: Error 0x1bc<a class="anchor" href="#troubleshooting-error-0x1bc">#</a></h3>
-<p>If you encounter the above error, download and install this WSL 2 update <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi" 
-  
-   target="_blank" rel="noreferrer noopener" 
->package</a>
- from Microsoft. After you have installed the update, try the command to set WSL 2 as default again.</p>
-<h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store<a class="anchor" href="#downloading-ubuntu-2004-for-wsl-from-the-windows-store">#</a></h3>
+<h3 id="troubleshooting-error-0x1bc">Troubleshooting: Error 0x1bc</h3>
+<p>If you encounter the above error, download and install this WSL 2 update <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">package</a> from Microsoft. After you have installed the update, try the command to set WSL 2 as default again.</p>
+<h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
 <p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQP4AL7FDWWJEW64LKS7AFGUI" alt="ubuntu"></p>
 <p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, click on Launch. Upon launching Ubuntu, it&rsquo;ll extract the system image and ask for an username and password. After you are done filling those in, type in the following commands to ensure everything&rsquo;s up-to-date.</p>
@@ -148,7 +167,7 @@ $ sudo apt-get upgrade
 </code></pre><p>The output should be:</p>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQOVYL2XMIVIZ4CPLNK7AFGX4" alt="wsl2yay"></p>
 <p>Check out the <code>Extras</code> for some more cool stuff!</p>
-<h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system<a class="anchor" href="#extras-shortcut-to-wsl-file-system">#</a></h3>
+<h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system</h3>
 <p>There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.</p>
 <ol>
 <li>Create a shortcut (preferably on your desktop you can move the shortcut around later)</li>
@@ -158,19 +177,11 @@ $ sudo apt-get upgrade
 <li>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home -&gt; &ldquo;your username&rdquo; and you should see your files.</li>
 </ol>
 <p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
-<h3 id="extras-custom-kernel">Extras: Custom Kernel<a class="anchor" href="#extras-custom-kernel">#</a></h3>
-<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and it primarily focuses on stability. However, since this is a real Linux kernel, we can replace it by using a more up-to-date custom one. To do this, we would be using <a href="https://github.com/nathanchance" 
-  
-   target="_blank" rel="noreferrer noopener" 
->Nathan Chancellor&rsquo;s</a>
- mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
+<h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
+<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and it primarily focuses on stability. However, since this is a real Linux kernel, we can replace it by using a more up-to-date custom one. To do this, we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
 <ol>
 <li>
-<p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases" 
-  
-   target="_blank" rel="noreferrer noopener" 
->here</a>
-. Make sure you have this in the root of your <code>Users</code> directory as in <code>C:\Users\YourUserName\</code>.</p>
+<p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory as in <code>C:\Users\YourUserName\</code>.</p>
 <p>Here I saved it as <code>kernel</code> you can name it anything you want to (or leave it as it is).</p>
 </li>
 <li>
@@ -194,86 +205,96 @@ kernel = C:\\Users\\Your User Name\\kernel
 Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">(</span>nathan@Ryzen-9-3900X<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>ClangBuiltLinux clang version 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">)</span>, LLD 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">))</span> <span style="color:#75715e">#1 SMP Thu Jun 18 00:53:16 MST 2020</span>
 </code></pre></div><p>And that is it!</p>
 <p>A newer and upstreamed kernel would basically keep your OS running more securely and more efficiently.</p>
-<h3 id="my-setup">My Setup<a class="anchor" href="#my-setup">#</a></h3>
+<h3 id="my-setup">My Setup</h3>
 <p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/homescreen.png?token=AKZAGQLTWSMBOGSLTF6E2A27AFGRU" alt="homescreen"></p>
 
-
-              
-          </article>
-          
-
- <div class="pagination">
-  
-
-  
-    <a class="pagination__item" href="https://sourajitk.github.io/posts/hello-world/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >Hello World!</span>
-    </a>
-  
-</div>
-
-          
-          <footer class="post__footer">
-            
-
-
-<div class="social-icons">
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-  
-     
-    
-     
-</div>
-
-            <p>Sourajit Karmakar</p>
-          </footer>
-          </div>
       </div>
-      
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        893 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-06-19 10:10 -0400
+      </p>
     </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h"></span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="https://sourajitk.github.io/posts/hello-world/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Hello World!</span>
+              </a>
+            </span>
+          
+
+          
+        </div>
+      </div>
+    
+
+
     
 
   </main>
 
-   
+            </div>
 
-  
-  <script src="/js/index.min.49e4d8a384357d9b445b87371863419937ede9fa77737522ffb633073aebfa44.js" integrity="sha256-SeTYo4Q1fZtEW4c3GGNBmTft6fp3c3Ui/7YzBzrr&#43;kQ=" crossorigin="anonymous"></script>
-  
-  
-  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            
+                <span>Sourajit Karmakar</span>
+            
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+</footer>
 
-  
-  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
-    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+            
+        </div>
 
-  
+        
 
 
-</body>
 
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
 </html>

@@ -1,55 +1,252 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Sourajit Karmakar</title>
-    <link>https://sourajitk.github.io/posts/</link>
-    <description>Recent content in Posts on Sourajit Karmakar</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Sourajit Karmakar</copyright>
-    <lastBuildDate>Fri, 15 Jan 2021 20:57:43 -0500</lastBuildDate>
-    
-	<atom:link href="https://sourajitk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>iPhone 12 Long-term Review: Function over Form</title>
-      <link>https://sourajitk.github.io/posts/iphone-12-review/</link>
-      <pubDate>Fri, 15 Jan 2021 20:57:43 -0500</pubDate>
-      
-      <guid>https://sourajitk.github.io/posts/iphone-12-review/</guid>
-      <description>I was a little let down when Apple decided against launching the iPhone 12 series with the new iPad Air and the refreshed iPad (10.2” with 1st Gen Apple Pencil support) back in the September’s &amp;ldquo;Time flies.&amp;rdquo; event. However, Apple was quick to announce their plans for the “Hi, Speed.” event on October 13th. The event was very Apple like which meant we got to see some vague numbers and graphs, some comparisons with last generation iPhones and the ultimate buzz word of 2020: 5G.</description>
-    </item>
-    
-    <item>
-      <title>Customizing the Windows Terminal</title>
-      <link>https://sourajitk.github.io/posts/windows-terminal/</link>
-      <pubDate>Thu, 23 Jul 2020 10:24:00 -0500</pubDate>
-      
-      <guid>https://sourajitk.github.io/posts/windows-terminal/</guid>
-      <description>What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
-Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source . What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://sourajitk.github.io/posts/hello-world/</link>
-      <pubDate>Fri, 19 Jun 2020 10:24:00 -0500</pubDate>
-      
-      <guid>https://sourajitk.github.io/posts/hello-world/</guid>
-      <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.
+    <channel>
+        <title>Posts on Sourajit Karmakar</title>
+        <link>https://sourajitk.github.io/posts/</link>
+        <description>Recent content in Posts on Sourajit Karmakar</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Sourajit Karmakar</copyright>
+        <lastBuildDate>Fri, 15 Jan 2021 20:57:43 -0500</lastBuildDate>
+        <atom:link href="https://sourajitk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>iPhone 12 Long-term Review: Function over Form</title>
+            <link>https://sourajitk.github.io/posts/iphone-12-review/</link>
+            <pubDate>Fri, 15 Jan 2021 20:57:43 -0500</pubDate>
+            
+            <guid>https://sourajitk.github.io/posts/iphone-12-review/</guid>
+            <description>I was a little let down when Apple decided against launching the iPhone 12 series with the new iPad Air and the refreshed iPad (10.2” with 1st Gen Apple Pencil support) back in the September’s &amp;ldquo;Time flies.&amp;rdquo; event. However, Apple was quick to announce their plans for the “Hi, Speed.” event on October 13th. The event was very Apple like which meant we got to see some vague numbers and graphs, some comparisons with last generation iPhones and the ultimate buzz word of 2020: 5G.</description>
+            <content type="html"><![CDATA[<p><img src="https://github.com/sourajitk/sourajitk.github.io/blob/source/data/iphone%2012%20review%20assets/Hi,%20speed%20banner.jpg?raw=true" alt=""></p>
+<p>I was a little let down when Apple decided against launching the iPhone 12 series with the new iPad Air and the refreshed iPad (10.2” with 1st Gen Apple Pencil support) back in the September’s &ldquo;Time flies.&rdquo; event. However, Apple was quick to announce their plans for the “Hi, Speed.” event on October 13th. The event was very Apple like which meant we got to see some vague numbers and graphs, some comparisons with last generation iPhones and the ultimate buzz word of 2020: 5G. As preorders went live, I ordered my iPhone 12 in Blue and after an unreasonable amount of waiting, it finally arrived on the 29th. (Thanks FedEx) So from October 29th to present day, I’ve been daily driving the iPhone 12; which equates to about 2½ months of usage and here are my thoughts.</p>
+<h2 id="unboxing-experience">Unboxing Experience</h2>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/IMG_1870.jpg" alt=""></p>
+<h5 id="thats-quite-thin-for-a-phone-box">That’s quite thin for a phone box.</h5>
+<p>Apple has been greatly emphasizing on environment friendly packaging and how they are planning to achieve 100% reliance on renewable energy by 2030 for the past couple of years <a href="https://appleinsider.com/articles/19/10/09/apple-environmental-report-demystified---what-it-all-means-to-the-consumer">detailed here</a>. This year with the iPhone 12 they made big enough changes where it affects us, end users. For starters, you don’t get a charging brick in the box anymore, not even with the top of the line $1399 512GB iPhone 12 Pro Max, and the EarPods that Apple’s been shipping since 2012 has been removed as well. So, what does one get with their shiny new iPhone 12? The phone, a USB-C to Lightning (-_-) cable, some documentation with just one Apple sticker in a box that has an exponentially smaller footprint due to all the missing stuff.</p>
+<p>What’s interesting here is the USB Type-C to Lightning cable they are supplying with all iPhones this year. Mind you, even last year, Apple shipped its iPhone 11s with the extremely slow and basically unusable 5W USB Type-A adapter. Sure, one would be able to charge their phones with that but at speeds so slow and far from what the device is capable of that it leaves the user with a very incomplete experience. Plus, if you don’t have a USB Type-A to lightning cable handy, you will have to buy the new 20W adapter for $19.00 which comes in its own box and paper work, and at that point the argument about the whole “environmental friendliness by decreasing the box footprint” falls apart and makes little to no sense, not to mention the Lightning port ― which has been with us since 2012 with the introduction of the iPhone 5 ― which could’ve easily been replaced with USB Type-C this year, decreasing the need for more Lightning cables (thus, saving precious metals and resources) and provide its users more compatibility. Seriously, if Apple brought USB Type-C to 2020 iPhones, I wouldn’t be here typing this out.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/IMG_1877.jpg" alt=""></p>
+<h5 id="the-20w-adapter-apple-wants-to-sell-you">The 20W adapter Apple wants to sell you.</h5>
+<p>For me personally, Apple’s argument of its users reusing accessories like the power brick from their old phones <strong><em>some</em></strong> make sense. I have plenty of USB Type-A to Lightning cables which work with anything ranging from the dreadful 5W Apple power adapter (thankfully it’s gone for good) to USB ports on computers and USB Type-C power bricks that can fast charge the iPhone 12 series to up to 20W (up from 18W). As for the removal of EarPods, I made the switch to wireless audio a while ago and so it doesn’t bother me all that much. Interestingly enough however, due to a <a href="https://www.lexplicite.fr/nouvelles-obligations-information/">law in France</a> that mandates shipping of hands-free accessories with electronic gadgets that emit radio waves, Apple is basically forced to ship the latest iPhones with a pair of Lightning EarPods.</p>
+<h2 id="the-iphone-12-first-impressions">The iPhone 12: First Impressions</h2>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/IMG_1869.jpg" alt=""></p>
+<h5 id="much-slimmer-bezels-compared-to-iphone-11">Much slimmer bezels compared to iPhone 11.</h5>
+<p>Coming back to the phone itself, I really like the new squared chassis which is very reminiscent of the iPhone 4 and 4S. It’s easier to have a firm grip compared to the concave Stainless Steel on the Pro series or the Aluminum from the 11 and the XR. At just 164g, the weight is evenly distributed and heft in hand is not overpowering. The iPhone 12 is a full 30g lighter than its predecessor ― iPhone 11 ― which is the product of the fact that the entire iPhone 12 line up now sports an OLED display (more on that in a bit). However, my biggest concern was the ~10% reduction in battery size i.e. from 3110mAh on the 11 to 2815mAh on the 12. (more on that later)</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/DSC_7705.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/DSC_7686.jpg" alt=""></p>
+<h5 id="basically-still-the-same-design">Basically still the same design.</h5>
+<p>Overall, the design hasn’t changed a lot since the iPhone X from 2017 (or the 11 Pro Max from last year as shown above) which means the display still has a notch to accommodate all the FaceID sensors and the bezels are kept relatively slim. The back is still free of FCC labels and looks exactly like the iPhone 11 (lol).</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/DSC_7641.jpg" alt=""></p>
+<h5 id="notch-unchanged-since-2017">Notch: Unchanged since 2017.</h5>
+<p>This year, the iPhone 12 also received a spec bump in terms of water resistance which is now rated at up to a maximum depth of 6 meters up to 30 minutes. Buttons are very clicky and the mute switch is ever so useful. The glass sandwich design is still as fragile as before or&hellip;.. is it? INTRODUCING CERAMIC SHIELD. Puns aside, developed in collaboration with Corning, Apple claims an impressive 2x more shatter resistance than the previous generation glass on the iPhone 11. What’s kind of a let down here is that there is no mention of any improvements per se on scratch resistance. It still scratches at a level 6 with deeper grooves at a level 7. Zach however, does note that the scratches are ever so slightly less visible especially the scratches from the level 6 pick so there’s that.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/MagSafe.jpg" alt=""></p>
+<h5 id="magsafe-credits-xdahttpswwwxda-developerscomapple-iphone-12-magsafe-wireless-charger-android-devices">MagSafe. Credits: <a href="https://www.xda-developers.com/apple-iphone-12-magsafe-wireless-charger-android-devices/">XDA</a></h5>
+<p>Another thing that’s <strong><em>cough</em> <em>cough</em></strong> new here is MagSafe <strong><em>confusion</em></strong>. Apple being Apple, presented MagSafe in way where it felt like they actually created brand-new and revolutionary technology (completely ignoring its prior presence on old MacBooks) to wirelessly charge your phone with <strong><em>drum roll</em></strong> the same Qi standard that’s been here for over half a decade now. Wireless charging speeds can go up to 15W which finally brings Apple in the same ballpark as say Samsung who have now standardized 15W wireless charging on their flagships for a while now. Unsurprisingly, the pad itself only works properly when connected to an Apple branded 21W USB-C power brick and physically the only real difference between this and any other wireless charger would be how the MagSafe charging pad uses magnets to align itself properly with the iPhone’s body and since the magnets are quite strong on this thing, it brings with itself the ability to stick a whole bunch of “MagSafe compatible” accessories like a wallet. And well it works and… that’s about it for MagSafe. At $59.99 for the leather MagSafe wallet and $39.99 for the charging pad itself which is nothing but a glorified wireless charger, MagSafe has failed to garner any attention from me.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/MagSafe%20wallet.jpg" alt=""></p>
+<h5 id="meh-credits-macrumorshttpswwwmacrumorscom20201030magsafe-wallet-apple-store-pickup">Meh. Credits: <a href="https://www.macrumors.com/2020/10/30/magsafe-wallet-apple-store-pickup/">MacRumors</a></h5>
+<h2 id="display">Display</h2>
+<p><img src="https://github.com/sourajitk/sourajitk.github.io/blob/source/data/iphone%2012%20review%20assets/IMG_1868.JPG?raw=true" alt=""></p>
+<h5 id="oled-is-finally-here-on-the-regular-iphone-12">OLED is finally here on the regular iPhone 12.</h5>
+<p>As mentioned earlier, the entire 12 line up now uses Super Retina XDR screens which is just a fancy phrase for OLED. The key differences between the iPhone 12/12 mini’s OLED screen and the 12 Pro/Max’s OLED screen are the manufacturer; BOE vs. Samsung and the maximum brightness; 625 nits vs. 800 nits (typical) both displays however peak at 1200 nits when viewing HDR10+ content. As with OLED screens, the screen has excellent contrast with deep inky blacks and bright but true to life color reproduction. There is also 100% coverage of the P3 color gamut and usual support for True Tone and Night Shift. Another huge improvement aside from the move to OLED from IPS LCD is the bump in resolution. On the 12, we are finally above the abysmal 1792 x 828 <strong><em>weird wonky barely</em></strong> HD resolution at 326 ppi to 2532 x 1170 resolution at 460 ppi which a step above Full HD (1080p) but slightly below Quad HD (1440p).</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/iphone%2012%20review%20assets/DSC_7725.jpg" alt=""></p>
+<p>Specifications aside, the display is a pleasure to look at. From countless Call of Duty mobile games to rewatching The Office, the display gets bright and dim enough (minimum being just 1 nit!) where it poses no issues even under harsh sunlight or while reading something before going to bed. However, its not all perfect. Two of my major complaints would be the design; it seems a bit outdated now with the big notch straight from 2017 and fact being that we are still stuck at 60Hz. In 2020, no flagship should have a 60Hz screen yet here we are. It’s not a deal breaker for me (the move OLED made me happy enough I guess) but no one’s buying phones in a vacuum and in that regard, I can easily see people getting upset about the missing HFR displays.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Customizing the Windows Terminal</title>
+            <link>https://sourajitk.github.io/posts/windows-terminal/</link>
+            <pubDate>Thu, 23 Jul 2020 10:24:00 -0500</pubDate>
+            
+            <guid>https://sourajitk.github.io/posts/windows-terminal/</guid>
+            <description>What is Windows terminal? Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, WSL and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.
+Another cool thing about Windows Terminal is that it&amp;rsquo;s open-source. What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!</description>
+            <content type="html"><![CDATA[<h3 id="what-is-windows-terminal">What is Windows terminal?</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/terminalpreview.png?token=AKZAGQMNTADJOMBJBZHGAJK7AFM6E" alt="TerminalPreview"></p>
+<p>Windows Terminal is a terminal emulator for Windows 10 written by Microsoft. It includes support for the Command Prompt, PowerShell, <a href="https://sourajitk.github.io/posts/wsl-2-how-to/">WSL</a> and SSH. After the initial source code release on GitHub, a preview release was first published to the Microsoft Store on June 21, 2019.</p>
+<p>Another cool thing about Windows Terminal is that it&rsquo;s <a href="https://github.com/microsoft/terminal">open-source</a>. What this means is that the code that was used to build Windows Terminal is publicly available for you or anyone else to modify!</p>
+<p>What makes Windows Terminal stand out is that it uses a GPU accelerated DirectWrite/DirectX-based text rendering engine. This new text rendering engine will display text characters, glyphs, and symbols present within fonts on your PC, including CJK ideograms, emoji, powerline symbols, icons, programming ligatures, etc. This engine also renders text much faster than the previous Console’s GDI engine!</p>
+<p>In this guide, we are going to be focusing on the Windows Store version of Windows Terminal. This process involves us modifying the JSON config file that contains all the settings for the Windows Terminal.</p>
+<h3 id="downloading-windows-terminal-from-the-microsoft-store">Downloading Windows Terminal from the Microsoft Store</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/wtstore.png?token=AKZAGQISAW46SEFFG7VF4VC7AFM7A" alt="WTStore"></p>
+<p>You can find the link to the app <a href="https://www.microsoft.com/en-us/p/windows-terminal/">here</a>.</p>
+<p>Press on launch after it has been installed.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/intialscreen.png?token=AKZAGQPVJG525KUKH222SNC7AFM4Q" alt="Initialscreen"></p>
+<h3 id="opening-the-json-config-file">Opening the JSON config file</h3>
+<p>First, you need to open up the menu and then press on Settings. Alternatively, you can use Ctrl+, as well for the same.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu.png?token=AKZAGQM54JUSFFU4ITC4HRK7AFM52" alt="menu"></p>
+<p>As you click on the Settings option, you should see a notepad window show up. This is the JSON file which is basically the configuration file for Windows Terminal. I would recommend you to install <a href="https://code.visualstudio.com/download">Visual Studio Code</a> as it makes editing the JSON much easier.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/json-file.png?token=AKZAGQN7W5QEBBAOWZ6BM5S7AFM5A" alt="json-file"></p>
+<p>Assuming you’ve already installed Visual Studio Code and opened the JSON file, let’s start customizing!</p>
+<h3 id="quick-tip">Quick Tip</h3>
+<p>Before we proceed, you might want to set the <code>&quot;copySelect&quot;</code> value to <code>true</code> as it’s very useful.</p>
+<h3 id="themes">Themes</h3>
+<p>There are 9 included themes that Windows Terminal ships with. One can set different themes for different profiles. Here, I’ve customized my WSL profile to use the Solarized Dark theme. To start using a different theme, locate the profile section in the <code>settings.json</code> and add <code>”colorScheme”</code> property to the profile you want to theme. Add this line to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+    <span style="color:#e6db74">&#34;colorScheme&#34;</span>: <span style="color:#e6db74">&#34;Your preferred theme name&#34;</span>,
+
+</code></pre></div><p>And should look something like this:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme2.png?token=AKZAGQNTYKJSU6YNWTKM7XK7AFM2K" alt="favtheme2"></p>
+<p>Other themes that I like are previewed here:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme1.png?token=AKZAGQNH7AKHFNX5IYQWLRK7AFMY2" alt="favtheme1"></p>
+<p>One Half Dark</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/favtheme3.png?token=AKZAGQIEAVSOBKDRVNEECVS7AFN52" alt="favtheme3"></p>
+<p>Vintage</p>
+<h3 id="fonts">Fonts</h3>
+<p>Windows Terminal supports any monospaced fonts. We can also set a default font size. You can also change the font size on the fly by using Ctrl &lsquo;+&rsquo; or ‘-‘.</p>
+<p>Although you can get away with a non-monospaced font, I cannot guarantee you that everything will look and work as expected. To set a custom font, add the following lines:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#e6db74">&#34;fontFace&#34;</span>: <span style="color:#e6db74">&#34;Consolas&#34;</span>,
+    <span style="color:#e6db74">&#34;fontSize&#34;</span>: 11,
+</code></pre></div><h3 id="adding-blur-to-the-terminal-backgorund">Adding blur to the Terminal backgorund</h3>
+<p>Since the Windows Terminal is a UWP (Univeral Windows Platform) app, it supports Windows&rsquo; Fluent Blur which can be enabled on the fly by holding Shift+Ctrl and scrolling up or down which will change be the transparency of the background (which is blurred).</p>
+<p>Note: Adjusting the blur using the above method doesn&rsquo;t save the values.</p>
+<p>To hard code a permanent opacity value which by the way can be set on a per-profile basis, add these lines to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#e6db74">&#34;useAcrylic&#34;</span>: true,
+    <span style="color:#e6db74">&#34;acrylicOpacity&#34;</span>: &lt;Any float value between 1.0 <span style="color:#f92672">(</span>fully transparent<span style="color:#f92672">)</span> to 0.0 <span style="color:#f92672">(</span>fully opaque<span style="color:#f92672">)</span>&gt;,
+</code></pre></div><h3 id="adding-icons-to-the-menu">Adding icons to the menu</h3>
+<p>Paste the following path in the Explorer address bar:</p>
+<p><code>%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState</code></p>
+<p>You should now be in an empty folder.</p>
+<p>Here you can copy your logo in <code>.PNG</code> format. Make sure you download or make a low-res copy of your copy because if it’s too high res, it might end up having an over-sharpened look.</p>
+<p>To define your logo, add the following to your profile:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#e6db74">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;ms-appdata:///roaming/&lt;your image name.png&gt;&#34;</span>
+</code></pre></div><p>Here’s how it should look like:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/windows%20terminal%20assests/menu_sample.png?token=AKZAGQJRG5R6JAUXKJYFRU27AHVAE" alt="menu_sample"></p>
+<h3 id="changing-the-default-starting-directory">Changing the default starting directory</h3>
+<p>Windows Terminal starts at <code>C:\Users\&lt;User name&gt;\</code> by default but this can be changed something else on a per-profile basis.</p>
+<p>By adding the following line you can change the starting directory to virtually anything you want.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    <span style="color:#e6db74">&#34;startingDirectory&#34;</span> : <span style="color:#e6db74">&#34;&lt;The path you desire&gt;&#34;</span>,
+</code></pre></div><h3 id="changing-default-shell">Changing default shell</h3>
+<p>Windows Terminal starts with Powershell by default but this can be changed to anything as long as you have the ID for that app. At the very beginning of the file you should see something like <code>&quot;defaultProfile&quot;: &quot;{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}&quot;,</code> here, just replace the ID with something else and Windows Terminal should start with what with selected.</p>
+<h3 id="final-words">Final words</h3>
+<p>There you have it! Some pretty simple yet useful customizations that will help you personalize Windows Terminal.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hello World!</title>
+            <link>https://sourajitk.github.io/posts/hello-world/</link>
+            <pubDate>Fri, 19 Jun 2020 10:24:00 -0500</pubDate>
+            
+            <guid>https://sourajitk.github.io/posts/hello-world/</guid>
+            <description>What is Hello World? Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.
 Here, I&amp;rsquo;m going to show you how the code for &amp;quot;Hello World&amp;quot; differs between various different langauges.</description>
-    </item>
-    
-    <item>
-      <title>How to setup WSL on Windows 10</title>
-      <link>https://sourajitk.github.io/posts/wsl-2-how-to/</link>
-      <pubDate>Fri, 19 Jun 2020 09:10:43 -0500</pubDate>
-      
-      <guid>https://sourajitk.github.io/posts/wsl-2-how-to/</guid>
-      <description>What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
+            <content type="html"><![CDATA[<h3 id="what-is-hello-world">What is Hello World?</h3>
+<p>Hello World is usually the first line of source code most programmers start with. Hello World in most languages usually consists of a couple of lines of very basic code illustrating how it works. However, another important function that it serves is to check if the program execution environment is setup properly.</p>
+<p>Here, I&rsquo;m going to show you how the code for <code>&quot;Hello World&quot;</code> differs between various different langauges.</p>
+<h3 id="1-python">1. Python</h3>
+<p>Python is an interpreted, high-level, general-purpose programming language created by Guido van Rossum. It&rsquo;s very simple and easy to learn. It&rsquo;s one of the most popular language amongst programmers.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">print<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World! I am Sourajit.&#34;</span><span style="color:#f92672">)</span>           <span style="color:#75715e"># Using the print function.</span>
+</code></pre></div><h3 id="2-java">2. Java</h3>
+<p>Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. Java was originally developed by Sun Microsystems, however, all Java related assests included the logo and name are under Oracle&rsquo;s possession. Java is also a very popular language due to it&rsquo;s compatibility and ability to run a wide variety of platforms.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">public class Main <span style="color:#f92672">{</span>                                         // The main class. 
+    public static void main<span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        System.out.println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World! I am Sourajit.&#34;</span><span style="color:#f92672">)</span>;  // The usage of println.
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="3-c">3. C++</h3>
+<p>C++ is one of the more older programming languages in the Programming World. It&rsquo;s an extension of the C programming language. It was created by Bjarne Stroustrup. It&rsquo;s also known as &ldquo;C with Classes&rdquo;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#include &lt;iostream.h&gt;</span>
+
+int main<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>                        // Executing the main<span style="color:#f92672">()</span> <span style="color:#66d9ef">function</span>.
+    std::cout &lt;&lt; <span style="color:#e6db74">&#34;Hello World! I am Sourajit.&#34;</span>;
+    <span style="color:#66d9ef">return</span> 0;
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="4-rust">4. Rust</h3>
+<p>Rust is a multi-paradigm programming language focused on performance and safety, especially safe concurrency. Developed by Mozilla, Rust is syntactically similar to C++, but provides memory safety without using garbage collection.</p>
+<p>Interesting fact: A person who codes in Rust is called a Rustacean.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">fn main<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>             // The main<span style="color:#f92672">()</span> <span style="color:#66d9ef">function</span>.
+    println!<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World! I am Sourajit!&#34;</span><span style="color:#f92672">)</span>; // Using the println <span style="color:#66d9ef">function</span> 
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="5-bash">5. Bash</h3>
+<p>GNU Bash or simply Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. Bash is an &ldquo;sh-compatible command language&rdquo; first released in 1989. It has been used widely as the default login shell for most Linux distributions and Apple&rsquo;s macOS Mojave and earlier versions.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>echo <span style="color:#e6db74">&#34;Hello World! I am Sourajit!&#34;</span>
+</code></pre></div><p>To run files coded in bash, you would need the <code>#!/bin/bash</code> at <code>line 0</code> (this special line is called the<code>she-bang</code> line) and the files need to saved with a <code>.sh</code> extension. To make the file executable, you need to <code>chmod +x &lt;file name&gt;</code> and then run it by typing <code>./&lt;path to the file&gt;</code>.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>How to setup WSL on Windows 10</title>
+            <link>https://sourajitk.github.io/posts/wsl-2-how-to/</link>
+            <pubDate>Fri, 19 Jun 2020 09:10:43 -0500</pubDate>
+            
+            <guid>https://sourajitk.github.io/posts/wsl-2-how-to/</guid>
+            <description>What is WSL? WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.
 Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full Linux kernel with version 2 of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration.</description>
-    </item>
-    
-  </channel>
+            <content type="html"><![CDATA[<h3 id="what-is-wsl">What is WSL?</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ms_loves_linux.png?token=AKZAGQJX3TSACHFBWW6MII27AFGS4" alt="MS<3Linux"></p>
+<p>WSL or Windows Subsystem for Linux is a compatibility layer for running Linux binary executables natively on Windows 10 and Windows Server 2019. WSL has been one of the most useful features of Windows 10.</p>
+<p>Things became even more delightful when Microsoft announced back in May 2019 that, they will be shipping a full <code>Linux kernel</code> with version <code>2</code> of WSL. This meant that anything that required significant processing power, could now be run using WSL 2 with full GPU and CPU accleration. It also brought along filesystem improvements which furthur enhanced the performance of it.</p>
+<p>In April 2020, WSL 2 came out of beta and was available to be used in Windows 10 April Update <code>Build 2004</code>. In the future, Microsoft has plans to default completely to WSL 2 instead of WSL 1.</p>
+<h3 id="how-to-setup-wsl-on-your-windows-10-powered-machine">How to setup WSL on your Windows 10 powered machine</h3>
+<p>Before starting, I would like to mention that in this guide, we will be setting up WSL 2.</p>
+<p>First, we need to enable some essential Windows 10 components to get WSL up and running. For WSL 2 specifically, we would be needing <code>Virtual Machine Platform</code> and <code>Windows Subsystem for Linux</code> features to be turned on.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/feat%20ctrl.png?token=AKZAGQO4SRKTOIYNBP3IFWC7AFGQS" alt="Featctrl"></p>
+<p>To enable the aforementioned features, head to the start menu and type <code>Windows Features</code> and choose the first option.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/vm%20plat.png?token=AKZAGQPLSMCVM4ZO665GT6C7AFGVO" alt="WinFeat"></p>
+<p>VM Platform</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl%20feat.png?token=AKZAGQIJJ77PHE65J5C42NS7AFGWW" alt="WSLFeat"></p>
+<p>Main WSL component</p>
+<p>After enabling the above features, you will have to reboot your machine. The two components we enabled should now be active and ready to be used.</p>
+<h3 id="setting-wsl-2-as-the-default-option">Setting WSL 2 as the default option</h3>
+<p>As of <code>Build 2004</code>, WSL 1 is still the default option. This might eventually change with upcoming updates but for now, we need to tell Windows to default to WSL 2. To do that, open up command prompt and type in the following:</p>
+<pre><code>wsl --set-default-version 2
+</code></pre><p>This will ensure that whenever a new WSL Linux distro is installed, it uses WSL 2 by default.</p>
+<h3 id="troubleshooting-error-0x1bc">Troubleshooting: Error 0x1bc</h3>
+<p>If you encounter the above error, download and install this WSL 2 update <a href="https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi">package</a> from Microsoft. After you have installed the update, try the command to set WSL 2 as default again.</p>
+<h3 id="downloading-ubuntu-2004-for-wsl-from-the-windows-store">Downloading Ubuntu 20.04 for WSL from the Windows Store</h3>
+<p>Now that the features have been enabled, we will now head to the Microsoft Store and install Ubuntu 20.04.</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/ubuntu.png?token=AKZAGQP4AL7FDWWJEW64LKS7AFGUI" alt="ubuntu"></p>
+<p>Click on install. It&rsquo;ll take a few minutes and once it&rsquo;s done, click on Launch. Upon launching Ubuntu, it&rsquo;ll extract the system image and ask for an username and password. After you are done filling those in, type in the following commands to ensure everything&rsquo;s up-to-date.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt-get update
+
+$ sudo apt-get upgrade
+</code></pre></div><p>That&rsquo;s it! You&rsquo;ve now successfully installed Ubuntu 20.04 on your Windows 10 machine using WSL 2. We can confirm that we are running WSL 2 by typing the following in CMD:</p>
+<pre><code>wsl --list --verbose 
+</code></pre><p>The output should be:</p>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/wsl2yay.png?token=AKZAGQOVYL2XMIVIZ4CPLNK7AFGX4" alt="wsl2yay"></p>
+<p>Check out the <code>Extras</code> for some more cool stuff!</p>
+<h3 id="extras-shortcut-to-wsl-file-system">Extras: Shortcut to WSL File-system</h3>
+<p>There is a neat way to access the files stored in your WSL VM. Follow the steps below to access the contents yourself on your Windows 10 PC.</p>
+<ol>
+<li>Create a shortcut (preferably on your desktop you can move the shortcut around later)</li>
+</ol>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/shortcut.png" alt=""></p>
+<ol start="2">
+<li>Copy and paste this  <code>\\wsl$\</code> in the address bar box, press on next and then finish to the create shortcut. After double clicking the newly created shortcut, you should see the name of your WSL distro and double clicking that should reveal the Linux rootfs. Navigating to home -&gt; &ldquo;your username&rdquo; and you should see your files.</li>
+</ol>
+<p>Tip: When creating the shortcut, type in the path to your home directory as that&rsquo;s the place where you&rsquo;ll have all your files. Just change the directory to <code>\\wsl$\Ubuntu-20.04\home\&lt;username&gt;</code> and the shortcut should take you to your Linux home directory.</p>
+<h3 id="extras-custom-kernel">Extras: Custom Kernel</h3>
+<p>The default kernel that WSL 2 ships with is <code>4.19.104-microsoft-standard</code> and it primarily focuses on stability. However, since this is a real Linux kernel, we can replace it by using a more up-to-date custom one. To do this, we would be using <a href="https://github.com/nathanchance">Nathan Chancellor&rsquo;s</a> mainline based kernel for WSL 2. Follow the steps below to get the latest kernel for yourself.</p>
+<ol>
+<li>
+<p>Download the latest kernel release from his WSL 2 kernel git <a href="https://github.com/nathanchance/WSL2-Linux-Kernel/releases">here</a>. Make sure you have this in the root of your <code>Users</code> directory as in <code>C:\Users\YourUserName\</code>.</p>
+<p>Here I saved it as <code>kernel</code> you can name it anything you want to (or leave it as it is).</p>
+</li>
+<li>
+<p>Now we would wanna shutdown WSL. To do that open up CMD and type in the following:</p>
+</li>
+</ol>
+<p>Note: This will shutdown WSL completely and any unsaved work will be lost.</p>
+<pre><code>wsl --shutdown
+</code></pre><ol start="3">
+<li>Now we need to create a file with the name <code>.wslconfig</code> in the root of your user&rsquo;s home directory. Now open this file using notepad and add the following:</li>
+</ol>
+<pre><code>[wsl2]
+kernel = C:\\Users\\Your User Name\\kernel
+</code></pre><p>Save the file and exit notepad.</p>
+<ol start="4">
+<li>Now it&rsquo;s time to fire up Ubuntu again. To do that, just open <code>Ubuntu</code> from the start menu and run:</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cat /proc/version
+</code></pre></div><p>If it worked the output would be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/prince<span style="color:#f92672">(</span>source<span style="color:#f92672">)</span> » cat /proc/version
+Linux version 5.8.0-rc1-next-20200618-microsoft-cbl <span style="color:#f92672">(</span>nathan@Ryzen-9-3900X<span style="color:#f92672">)</span> <span style="color:#f92672">(</span>ClangBuiltLinux clang version 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">)</span>, LLD 11.0.0 <span style="color:#f92672">(</span>https://github.com/llvm/llvm-project b21794a91ccc3b6000f05f1080dbce30455c7061<span style="color:#f92672">))</span> <span style="color:#75715e">#1 SMP Thu Jun 18 00:53:16 MST 2020</span>
+</code></pre></div><p>And that is it!</p>
+<p>A newer and upstreamed kernel would basically keep your OS running more securely and more efficiently.</p>
+<h3 id="my-setup">My Setup</h3>
+<p><img src="https://raw.githubusercontent.com/sourajitk/sourajitk.github.io/source/data/wsl%20blog%20assests/homescreen.png?token=AKZAGQLTWSMBOGSLTF6E2A27AFGRU" alt="homescreen"></p>
+]]></content>
+        </item>
+        
+    </channel>
 </rss>
