@@ -5,9 +5,27 @@
     <link>https://sourajitk.github.io/categories/</link>
     <description>Recent content in Categories on Sourajit Karmakar</description>
     <image>
+      <title>Sourajit Karmakar</title>
       <url>https://sourajitk.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://sourajitk.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://sourajitk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.154.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sourajitk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://sourajitk.github.io/categories/development/</link>
+      <pubDate>Mon, 27 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://sourajitk.github.io/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://sourajitk.github.io/categories/projects/</link>
+      <pubDate>Mon, 27 Jan 2025 12:00:00 +0000</pubDate>
+      <guid>https://sourajitk.github.io/categories/projects/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
